@@ -1,9 +1,11 @@
 # TheAnimation
 
 [![CI Status](https://img.shields.io/travis/marty-suzuki/TheAnimation.svg?style=flat)](https://travis-ci.org/marty-suzuki/TheAnimation)
+[![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat)](https://developer.apple.com/iphone/index.action)
+[![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat)](https://developer.apple.com/swift)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/TheAnimation.svg?style=flat)](https://cocoapods.org/pods/TheAnimation)
 [![License](https://img.shields.io/cocoapods/l/TheAnimation.svg?style=flat)](https://cocoapods.org/pods/TheAnimation)
-[![Platform](https://img.shields.io/cocoapods/p/TheAnimation.svg?style=flat)](https://cocoapods.org/pods/TheAnimation)
 
 TheAnimation is Type-safe CAAnimation wrapper.
 
@@ -57,9 +59,9 @@ To run the example project, clone the repo, and open Example directory.
 
 You can add `AnimationKeyPath` like this.
 
-```
+```swift
 extension AnimationKeyPaths {
-    static let newKeyPaths = AnimationKeyPath<CGFloat>(keyPath: "abcd")
+    static let newKeyPath = AnimationKeyPath<CGFloat>(keyPath: "abcd")
 }
 ```
 
