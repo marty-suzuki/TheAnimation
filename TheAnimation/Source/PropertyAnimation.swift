@@ -28,17 +28,17 @@ extension PrimitiveAnimation where RawAnimation: CAPropertyAnimation {
 }
 
 public struct ValueFunction {
-    static let rotateX    = ValueFunction(name: kCAValueFunctionRotateX)
-    static let rotateY    = ValueFunction(name: kCAValueFunctionRotateY)
-    static let rotateZ    = ValueFunction(name: kCAValueFunctionRotateZ)
-    static let scale      = ValueFunction(name: kCAValueFunctionScale)
-    static let scaleX     = ValueFunction(name: kCAValueFunctionScaleX)
-    static let scaleY     = ValueFunction(name: kCAValueFunctionScaleY)
-    static let scaleZ     = ValueFunction(name: kCAValueFunctionScaleZ)
-    static let translate  = ValueFunction(name: kCAValueFunctionTranslate)
-    static let translateX = ValueFunction(name: kCAValueFunctionTranslateX)
-    static let translateY = ValueFunction(name: kCAValueFunctionTranslateY)
-    static let translateZ = ValueFunction(name: kCAValueFunctionTranslateZ)
+    public static let rotateX    = ValueFunction(name: kCAValueFunctionRotateX)
+    public static let rotateY    = ValueFunction(name: kCAValueFunctionRotateY)
+    public static let rotateZ    = ValueFunction(name: kCAValueFunctionRotateZ)
+    public static let scale      = ValueFunction(name: kCAValueFunctionScale)
+    public static let scaleX     = ValueFunction(name: kCAValueFunctionScaleX)
+    public static let scaleY     = ValueFunction(name: kCAValueFunctionScaleY)
+    public static let scaleZ     = ValueFunction(name: kCAValueFunctionScaleZ)
+    public static let translate  = ValueFunction(name: kCAValueFunctionTranslate)
+    public static let translateX = ValueFunction(name: kCAValueFunctionTranslateX)
+    public static let translateY = ValueFunction(name: kCAValueFunctionTranslateY)
+    public static let translateZ = ValueFunction(name: kCAValueFunctionTranslateZ)
 
     let rawValue: CAValueFunction?
 
