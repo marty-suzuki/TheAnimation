@@ -1,6 +1,0 @@
-use_frameworks!
-target 'TheAnimation_Tests' do
-  pod 'TheAnimation', :path => '../'
-  
-  
-end
