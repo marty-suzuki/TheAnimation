@@ -49,6 +49,7 @@ extension AnimationKeyPaths {
     public static let mask              = AnimationKeyPath<CALayer>(keyPath: "mask")
     public static let masksToBounds     = AnimationKeyPath<Bool>(keyPath: "masksToBounds")
     public static let opacity           = AnimationKeyPath<CGFloat>(keyPath: "opacity")
+    public static let path              = AnimationKeyPath<CGPath>(keyPath: "path")
     public static let position          = AnimationKeyPath<CGPoint>(keyPath: "position")
     public static let shadowColor       = AnimationKeyPath<CGColor>(keyPath: "shadowColor")
     public static let shadowOffset      = AnimationKeyPath<CGSize>(keyPath: "shadowOffset")

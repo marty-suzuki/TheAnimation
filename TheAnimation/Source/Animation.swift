@@ -89,10 +89,10 @@ extension Animation {
 }
 
 public struct FillMode {
-    static let forwards  = FillMode(rawValue: kCAFillModeForwards)
-    static let backwards = FillMode(rawValue: kCAFillModeBackwards)
-    static let both      = FillMode(rawValue: kCAFillModeBoth)
-    static let removed   = FillMode(rawValue: kCAFillModeRemoved)
+    public static let forwards  = FillMode(rawValue: kCAFillModeForwards)
+    public static let backwards = FillMode(rawValue: kCAFillModeBackwards)
+    public static let both      = FillMode(rawValue: kCAFillModeBoth)
+    public static let removed   = FillMode(rawValue: kCAFillModeRemoved)
 
     let rawValue: String
 }
@@ -101,7 +101,7 @@ public struct AnimationCanceller {
     let layer: CALayer
     let key: String
 
-    func cancelAnimation() {
+    public func cancelAnimation() {
         layer.removeAnimation(forKey: key)
     }
 }
