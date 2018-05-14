@@ -9,6 +9,9 @@
 
 TheAnimation is Type-safe CAAnimation wrapper.
 
+![](./Images/basic_animation.png)
+
+## Introduction
 
 For example, if you want to animate `backgroundColor` with `CABasicAnimation`, you need to consider type because fromValue property and so on are `Any?`.
 
