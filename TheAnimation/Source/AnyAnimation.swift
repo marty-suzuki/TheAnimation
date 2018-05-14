@@ -8,7 +8,7 @@
 
 import CoreGraphics
 
-public class AnyAnimation: Animation {
+public final class AnyAnimation: Animation {
     public let animation: CAAnimation
     public let key: String
 
