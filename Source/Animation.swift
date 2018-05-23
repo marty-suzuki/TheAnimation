@@ -20,7 +20,6 @@ public protocol Animation: class {
     var key: String { get }
 }
 
-
 extension Animation {
     public var timingFunction: TimingFunction? {
         set { animation.timingFunction = newValue?.rawValue }

@@ -20,6 +20,7 @@
 		07EB621720B5D7BD00943B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EB621620B5D7BD00943B5A /* Assets.xcassets */; };
 		07EB621C20B5D7FC00943B5A /* UsingTheAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */; };
 		07EB623820B5DB9F00943B5A /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EB623720B5DB9F00943B5A /* TheAnimation.framework */; };
+		07EB625220B5E6F100943B5A /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EB625120B5E6F100943B5A /* TheAnimation.framework */; };
 		3724DDD520A6CA3200584B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDD420A6CA3200584B56 /* AppDelegate.swift */; };
 		3724DDD720A6CA3200584B56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDD620A6CA3200584B56 /* ViewController.swift */; };
 		3724DDDA20A6CA3200584B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3724DDD820A6CA3200584B56 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		07EB621820B5D7BD00943B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07EB623520B5D95A00943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EB623720B5DB9F00943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EB625120B5E6F100943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3724DDD120A6CA3200584B56 /* TheAnimationExample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheAnimationExample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3724DDD420A6CA3200584B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3724DDD620A6CA3200584B56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07EB625220B5E6F100943B5A /* TheAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +158,7 @@
 		375095EC20A6CA93004A5EDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07EB625120B5E6F100943B5A /* TheAnimation.framework */,
 				07EB623720B5DB9F00943B5A /* TheAnimation.framework */,
 				07EB623520B5D95A00943B5A /* TheAnimation.framework */,
 				375095ED20A6CA93004A5EDC /* TheAnimation.framework */,

@@ -11,13 +11,11 @@ import TheAnimation
 
 #if os(iOS) || os(watchOS) || os(tvOS)
 import UIKit
-public typealias View = UIView
 public typealias Color = UIColor
 public typealias BezierPath = UIBezierPath
 #elseif os(OSX)
 import AppKit
 import CoreGraphics
-public typealias View = NSView
 public typealias Color = NSColor
 public typealias BezierPath = NSBezierPath
 
