@@ -6,7 +6,7 @@
 //  Copyright © 2018年 marty-suzuki. All rights reserved.
 //
 
-#if os(iOS)
+#if os(iOS) || os(watchOS) || os(tvOS)
 import UIKit
 public typealias View = UIView
 #elseif os(OSX)
@@ -92,7 +92,7 @@ extension Animation {
 
     @discardableResult
     public func animate(in view: View) -> AnimationCanceller {
-        #if os(iOS)
+        #if os(iOS) || os(watchOS) || os(tvOS)
         return animate(in: view.layer)
         #elseif os(OSX)
         view.wantsLayer = true

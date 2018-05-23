@@ -9,7 +9,7 @@
 import QuartzCore.CoreAnimation
 import TheAnimation
 
-#if os(iOS)
+#if os(iOS) || os(watchOS) || os(tvOS)
 import UIKit
 public typealias View = UIView
 public typealias Color = UIColor
@@ -65,7 +65,7 @@ func performAnimation(view: View, circleLayer: CAShapeLayer) {
         circleLayer.frame = CGRect(x: 0, y: y, width: size.width, height: size.height)
         circleLayer.fillColor = Color.green.cgColor
         circleLayer.needsDisplayOnBoundsChange = true
-        #if os(iOS)
+        #if os(iOS) || os(watchOS) || os(tvOS)
         view.layer.addSublayer(circleLayer)
         #elseif os(OSX)
         view.wantsLayer = true

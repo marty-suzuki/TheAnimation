@@ -14,6 +14,12 @@
 		0746D60D20B5C23E00D21053 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0746D60C20B5C23E00D21053 /* Default-568h@2x.png */; };
 		0746D61020B5C68D00D21053 /* UsingTheAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */; };
 		0746D61120B5C68D00D21053 /* UsingTheAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */; };
+		07EB621020B5D7BB00943B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB620F20B5D7BB00943B5A /* AppDelegate.swift */; };
+		07EB621220B5D7BB00943B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB621120B5D7BB00943B5A /* ViewController.swift */; };
+		07EB621520B5D7BB00943B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EB621320B5D7BB00943B5A /* Main.storyboard */; };
+		07EB621720B5D7BD00943B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EB621620B5D7BD00943B5A /* Assets.xcassets */; };
+		07EB621C20B5D7FC00943B5A /* UsingTheAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */; };
+		07EB623820B5DB9F00943B5A /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EB623720B5DB9F00943B5A /* TheAnimation.framework */; };
 		3724DDD520A6CA3200584B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDD420A6CA3200584B56 /* AppDelegate.swift */; };
 		3724DDD720A6CA3200584B56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDD620A6CA3200584B56 /* ViewController.swift */; };
 		3724DDDA20A6CA3200584B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3724DDD820A6CA3200584B56 /* Main.storyboard */; };
@@ -32,6 +38,14 @@
 		0746D60720B5C14D00D21053 /* TheAnimationExample_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheAnimationExample_macOS.entitlements; sourceTree = "<group>"; };
 		0746D60C20B5C23E00D21053 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingTheAnimation.swift; sourceTree = "<group>"; };
+		07EB620D20B5D7BB00943B5A /* TheAnimationExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheAnimationExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EB620F20B5D7BB00943B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07EB621120B5D7BB00943B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07EB621420B5D7BB00943B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07EB621620B5D7BD00943B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07EB621820B5D7BD00943B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EB623520B5D95A00943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EB623720B5DB9F00943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3724DDD120A6CA3200584B56 /* TheAnimationExample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheAnimationExample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3724DDD420A6CA3200584B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3724DDD620A6CA3200584B56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EB620A20B5D7BB00943B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EB623820B5DB9F00943B5A /* TheAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +104,18 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		07EB620E20B5D7BB00943B5A /* TheAnimationExample-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				07EB620F20B5D7BB00943B5A /* AppDelegate.swift */,
+				07EB621120B5D7BB00943B5A /* ViewController.swift */,
+				07EB621320B5D7BB00943B5A /* Main.storyboard */,
+				07EB621620B5D7BD00943B5A /* Assets.xcassets */,
+				07EB621820B5D7BD00943B5A /* Info.plist */,
+			);
+			path = "TheAnimationExample-tvOS";
+			sourceTree = "<group>";
+		};
 		3724DDC820A6CA3200584B56 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +123,7 @@
 				0746D60E20B5C65000D21053 /* Common */,
 				3724DDD320A6CA3200584B56 /* TheAnimationExample-iOS */,
 				0746D5FC20B5C14C00D21053 /* TheAnimationExample-macOS */,
+				07EB620E20B5D7BB00943B5A /* TheAnimationExample-tvOS */,
 				3724DDD220A6CA3200584B56 /* Products */,
 				375095EC20A6CA93004A5EDC /* Frameworks */,
 			);
@@ -99,6 +134,7 @@
 			children = (
 				3724DDD120A6CA3200584B56 /* TheAnimationExample-iOS.app */,
 				0746D5FB20B5C14C00D21053 /* TheAnimationExample-macOS.app */,
+				07EB620D20B5D7BB00943B5A /* TheAnimationExample-tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +155,8 @@
 		375095EC20A6CA93004A5EDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07EB623720B5DB9F00943B5A /* TheAnimation.framework */,
+				07EB623520B5D95A00943B5A /* TheAnimation.framework */,
 				375095ED20A6CA93004A5EDC /* TheAnimation.framework */,
 			);
 			name = Frameworks;
@@ -142,6 +180,23 @@
 			name = "TheAnimationExample-macOS";
 			productName = "TheAnimationExample-macOS";
 			productReference = 0746D5FB20B5C14C00D21053 /* TheAnimationExample-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07EB620C20B5D7BB00943B5A /* TheAnimationExample-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EB621B20B5D7BD00943B5A /* Build configuration list for PBXNativeTarget "TheAnimationExample-tvOS" */;
+			buildPhases = (
+				07EB620920B5D7BB00943B5A /* Sources */,
+				07EB620A20B5D7BB00943B5A /* Frameworks */,
+				07EB620B20B5D7BB00943B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TheAnimationExample-tvOS";
+			productName = "TheAnimationExample-tvOS";
+			productReference = 07EB620D20B5D7BB00943B5A /* TheAnimationExample-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3724DDD020A6CA3200584B56 /* TheAnimationExample-iOS */ = {
@@ -174,6 +229,9 @@
 					0746D5FA20B5C14C00D21053 = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
+					07EB620C20B5D7BB00943B5A = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
 					3724DDD020A6CA3200584B56 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -194,6 +252,7 @@
 			targets = (
 				3724DDD020A6CA3200584B56 /* TheAnimationExample-iOS */,
 				0746D5FA20B5C14C00D21053 /* TheAnimationExample-macOS */,
+				07EB620C20B5D7BB00943B5A /* TheAnimationExample-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +264,15 @@
 			files = (
 				0746D60220B5C14D00D21053 /* Assets.xcassets in Resources */,
 				0746D60520B5C14D00D21053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EB620B20B5D7BB00943B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EB621720B5D7BD00943B5A /* Assets.xcassets in Resources */,
+				07EB621520B5D7BB00943B5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +300,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07EB620920B5D7BB00943B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EB621C20B5D7FC00943B5A /* UsingTheAnimation.swift in Sources */,
+				07EB621220B5D7BB00943B5A /* ViewController.swift in Sources */,
+				07EB621020B5D7BB00943B5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3724DDCD20A6CA3200584B56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +327,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				0746D60420B5C14D00D21053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07EB621320B5D7BB00943B5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EB621420B5D7BB00943B5A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -287,7 +373,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "es.carlosypunto.TheAnimationExample-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
@@ -309,10 +395,50 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "es.carlosypunto.TheAnimationExample-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		07EB621920B5D7BD00943B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V65Z4JB29;
+				INFOPLIST_FILE = "TheAnimationExample-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		07EB621A20B5D7BD00943B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V65Z4JB29;
+				INFOPLIST_FILE = "TheAnimationExample-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
 			};
 			name = Release;
 		};
@@ -441,7 +567,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,7 +585,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,6 +600,15 @@
 			buildConfigurations = (
 				0746D60920B5C14D00D21053 /* Debug */,
 				0746D60A20B5C14D00D21053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07EB621B20B5D7BD00943B5A /* Build configuration list for PBXNativeTarget "TheAnimationExample-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EB621920B5D7BD00943B5A /* Debug */,
+				07EB621A20B5D7BD00943B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

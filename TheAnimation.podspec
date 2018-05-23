@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TheAnimation'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'Type safe CAAnimation wrapper.'
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
+  s.tvos.deployment_target = '9.2'
 
   s.source_files = 'TheAnimation/**/*.{swift}'
   
