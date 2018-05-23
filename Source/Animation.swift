@@ -6,12 +6,20 @@
 //  Copyright © 2018年 marty-suzuki. All rights reserved.
 //
 
-import CoreGraphics
+#if os(iOS)
+import UIKit
+public typealias View = UIView
+#elseif os(OSX)
+import AppKit
+public typealias View = NSView
+#endif
+import QuartzCore.CoreAnimation
 
 public protocol Animation: class {
     var animation: CAAnimation { get }
     var key: String { get }
 }
+
 
 extension Animation {
     public var timingFunction: TimingFunction? {
@@ -83,8 +91,13 @@ extension Animation {
     }
 
     @discardableResult
-    public func animate(in view: UIView) -> AnimationCanceller {
+    public func animate(in view: View) -> AnimationCanceller {
+        #if os(iOS)
         return animate(in: view.layer)
+        #elseif os(OSX)
+        view.wantsLayer = true
+        return animate(in: view.layer!)
+        #endif
     }
 }
 

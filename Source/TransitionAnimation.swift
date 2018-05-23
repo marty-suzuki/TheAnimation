@@ -6,7 +6,7 @@
 //  Copyright © 2018年 marty-suzuki. All rights reserved.
 //
 
-import CoreGraphics
+import QuartzCore.CoreAnimation
 
 public final class TransitionAnimation: Animation {
     public var animation: CAAnimation {

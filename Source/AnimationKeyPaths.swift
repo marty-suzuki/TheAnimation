@@ -6,7 +6,8 @@
 //  Copyright © 2018年 marty-suzuki. All rights reserved.
 //
 
-import UIKit
+import QuartzCore.CoreAnimation
+import CoreImage
 
 open class AnimationKeyPaths {
     fileprivate init() {}
