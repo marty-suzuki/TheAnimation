@@ -12,7 +12,7 @@ import TheAnimation
 import CoreGraphics
 
 extension NSBezierPath {
-    
+
     var cgPath: CGPath {
         var immutablePath: CGPath
         let numElements = elementCount
@@ -46,14 +46,14 @@ extension NSBezierPath {
 }
 
 class ViewController: NSViewController {
-    
+
     let circleLayer = CAShapeLayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         let size = CGSize(width: view.bounds.size.width,
                           height: view.bounds.size.width)
-        
+
         ConfigureCircleLayer: do {
             let y = (view.bounds.height - size.height) / 2
             circleLayer.frame = CGRect(x: 0, y: y, width: size.width, height: size.height)
@@ -66,7 +66,7 @@ class ViewController: NSViewController {
                 fatalError("view.layer is nil in \(#file)_\(#function)_\(#line)")
             }
         }
-        
+
         Animation: do {
             let startSize = CGSize(width: 100, height: 100)
             let inset = (size.width / 2) - (startSize.width / 2)

@@ -11,14 +11,14 @@ import QuartzCore.CoreAnimation
 import TheAnimation
 
 class ViewController: UIViewController {
-    
+
     let circleLayer = CAShapeLayer()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         let size = CGSize(width: view.bounds.size.width,
                           height: view.bounds.size.width)
-        
+
         ConfigureCircleLayer: do {
             let y = (view.bounds.height - size.height) / 2
             circleLayer.frame = CGRect(x: 0, y: y, width: size.width, height: size.height)
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
             circleLayer.needsDisplayOnBoundsChange = true
             view.layer.addSublayer(circleLayer)
         }
-        
+
         Animation: do {
             let startSize = CGSize(width: 100, height: 100)
             let inset = (size.width / 2) - (startSize.width / 2)
