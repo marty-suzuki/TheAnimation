@@ -95,7 +95,11 @@ extension Animation {
         return animate(in: view.layer)
         #elseif os(OSX)
         view.wantsLayer = true
-        return animate(in: view.layer!)
+        if let layer = view.layer {
+            return animate(in: layer)
+        } else {
+            fatalError("view.layer is nil in \(#file)_\(#function)_\(#line)")
+        }
         #endif
     }
 }

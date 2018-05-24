@@ -12,13 +12,10 @@
 		0746D60220B5C14D00D21053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0746D60120B5C14D00D21053 /* Assets.xcassets */; };
 		0746D60520B5C14D00D21053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0746D60320B5C14D00D21053 /* Main.storyboard */; };
 		0746D60D20B5C23E00D21053 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0746D60C20B5C23E00D21053 /* Default-568h@2x.png */; };
-		0746D61020B5C68D00D21053 /* UsingTheAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */; };
-		0746D61120B5C68D00D21053 /* UsingTheAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */; };
 		07EB621020B5D7BB00943B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB620F20B5D7BB00943B5A /* AppDelegate.swift */; };
 		07EB621220B5D7BB00943B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB621120B5D7BB00943B5A /* ViewController.swift */; };
 		07EB621520B5D7BB00943B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EB621320B5D7BB00943B5A /* Main.storyboard */; };
 		07EB621720B5D7BD00943B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EB621620B5D7BD00943B5A /* Assets.xcassets */; };
-		07EB621C20B5D7FC00943B5A /* UsingTheAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */; };
 		07EB623820B5DB9F00943B5A /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EB623720B5DB9F00943B5A /* TheAnimation.framework */; };
 		07EB625220B5E6F100943B5A /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EB625120B5E6F100943B5A /* TheAnimation.framework */; };
 		3724DDD520A6CA3200584B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDD420A6CA3200584B56 /* AppDelegate.swift */; };
@@ -38,7 +35,6 @@
 		0746D60620B5C14D00D21053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0746D60720B5C14D00D21053 /* TheAnimationExample_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheAnimationExample_macOS.entitlements; sourceTree = "<group>"; };
 		0746D60C20B5C23E00D21053 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingTheAnimation.swift; sourceTree = "<group>"; };
 		07EB620D20B5D7BB00943B5A /* TheAnimationExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheAnimationExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EB620F20B5D7BB00943B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07EB621120B5D7BB00943B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,14 +95,6 @@
 			path = "TheAnimationExample-macOS";
 			sourceTree = "<group>";
 		};
-		0746D60E20B5C65000D21053 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				0746D60F20B5C68D00D21053 /* UsingTheAnimation.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		07EB620E20B5D7BB00943B5A /* TheAnimationExample-tvOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				0746D60C20B5C23E00D21053 /* Default-568h@2x.png */,
-				0746D60E20B5C65000D21053 /* Common */,
 				3724DDD320A6CA3200584B56 /* TheAnimationExample-iOS */,
 				0746D5FC20B5C14C00D21053 /* TheAnimationExample-macOS */,
 				07EB620E20B5D7BB00943B5A /* TheAnimationExample-tvOS */,
@@ -299,7 +286,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0746D60020B5C14C00D21053 /* ViewController.swift in Sources */,
-				0746D61120B5C68D00D21053 /* UsingTheAnimation.swift in Sources */,
 				0746D5FE20B5C14C00D21053 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EB621C20B5D7FC00943B5A /* UsingTheAnimation.swift in Sources */,
 				07EB621220B5D7BB00943B5A /* ViewController.swift in Sources */,
 				07EB621020B5D7BB00943B5A /* AppDelegate.swift in Sources */,
 			);
@@ -319,7 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3724DDD720A6CA3200584B56 /* ViewController.swift in Sources */,
-				0746D61020B5C68D00D21053 /* UsingTheAnimation.swift in Sources */,
 				3724DDD520A6CA3200584B56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
