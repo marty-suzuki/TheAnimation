@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore.CoreAnimation
 import TheAnimation
 
 class ViewController: UIViewController {
@@ -15,7 +16,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         let size = CGSize(width: view.bounds.size.width,
                           height: view.bounds.size.width)
 

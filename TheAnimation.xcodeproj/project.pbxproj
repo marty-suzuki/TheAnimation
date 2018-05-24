@@ -7,20 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3724DDBF20A5DA5600584B56 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDBE20A5DA5600584B56 /* AnimationGroup.swift */; };
-		3724DDC120A5DDE500584B56 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC020A5DDE500584B56 /* AnyAnimation.swift */; };
-		3724DDC320A5DE3400584B56 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC220A5DE3400584B56 /* TransitionAnimation.swift */; };
-		3724DDC520A5FA2900584B56 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC420A5FA2900584B56 /* TimingFunction.swift */; };
-		3724DDC720A61D1100584B56 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC620A61D1100584B56 /* Animation.swift */; };
+		07239C2E20B733490016F553 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2320B733490016F553 /* Animation.swift */; };
+		07239C2F20B733490016F553 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2320B733490016F553 /* Animation.swift */; };
+		07239C3020B733490016F553 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2320B733490016F553 /* Animation.swift */; };
+		07239C3120B733490016F553 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2420B733490016F553 /* TransitionAnimation.swift */; };
+		07239C3220B733490016F553 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2420B733490016F553 /* TransitionAnimation.swift */; };
+		07239C3320B733490016F553 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2420B733490016F553 /* TransitionAnimation.swift */; };
+		07239C3420B733490016F553 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2520B733490016F553 /* PrimitiveAnimation.swift */; };
+		07239C3520B733490016F553 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2520B733490016F553 /* PrimitiveAnimation.swift */; };
+		07239C3620B733490016F553 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2520B733490016F553 /* PrimitiveAnimation.swift */; };
+		07239C3720B733490016F553 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2620B733490016F553 /* AnyAnimation.swift */; };
+		07239C3820B733490016F553 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2620B733490016F553 /* AnyAnimation.swift */; };
+		07239C3920B733490016F553 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2620B733490016F553 /* AnyAnimation.swift */; };
+		07239C3A20B733490016F553 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2720B733490016F553 /* AnimationGroup.swift */; };
+		07239C3B20B733490016F553 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2720B733490016F553 /* AnimationGroup.swift */; };
+		07239C3C20B733490016F553 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2720B733490016F553 /* AnimationGroup.swift */; };
+		07239C3D20B733490016F553 /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2820B733490016F553 /* PropertyAnimation.swift */; };
+		07239C3E20B733490016F553 /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2820B733490016F553 /* PropertyAnimation.swift */; };
+		07239C3F20B733490016F553 /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2820B733490016F553 /* PropertyAnimation.swift */; };
+		07239C4020B733490016F553 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2920B733490016F553 /* BasicAnimation.swift */; };
+		07239C4120B733490016F553 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2920B733490016F553 /* BasicAnimation.swift */; };
+		07239C4220B733490016F553 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2920B733490016F553 /* BasicAnimation.swift */; };
+		07239C4320B733490016F553 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2A20B733490016F553 /* SpringAnimation.swift */; };
+		07239C4420B733490016F553 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2A20B733490016F553 /* SpringAnimation.swift */; };
+		07239C4520B733490016F553 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2A20B733490016F553 /* SpringAnimation.swift */; };
+		07239C4620B733490016F553 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2B20B733490016F553 /* AnimationKeyPaths.swift */; };
+		07239C4720B733490016F553 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2B20B733490016F553 /* AnimationKeyPaths.swift */; };
+		07239C4820B733490016F553 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2B20B733490016F553 /* AnimationKeyPaths.swift */; };
+		07239C4920B733490016F553 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2C20B733490016F553 /* TimingFunction.swift */; };
+		07239C4A20B733490016F553 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2C20B733490016F553 /* TimingFunction.swift */; };
+		07239C4B20B733490016F553 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2C20B733490016F553 /* TimingFunction.swift */; };
+		07239C4C20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
+		07239C4D20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
+		07239C4E20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
+		0746D5C920B5AE6600D21053 /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0746D5C720B5AE6600D21053 /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07EB622620B5D8C600943B5A /* TheAnimation_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37BD75A220A5D050009219F2 /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BD759820A5D050009219F2 /* TheAnimation.framework */; };
 		37BD75A720A5D050009219F2 /* TheAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75A620A5D050009219F2 /* TheAnimationTests.swift */; };
 		37BD75A920A5D050009219F2 /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD759B20A5D050009219F2 /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37BD75B420A5D112009219F2 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B320A5D112009219F2 /* AnimationKeyPaths.swift */; };
-		37BD75B620A5D1DC009219F2 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B520A5D1DC009219F2 /* PrimitiveAnimation.swift */; };
-		37BD75B820A5D2A7009219F2 /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B720A5D2A7009219F2 /* PropertyAnimation.swift */; };
-		37BD75BA20A5D2C8009219F2 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B920A5D2C8009219F2 /* BasicAnimation.swift */; };
-		37BD75BC20A5D2ED009219F2 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75BB20A5D2ED009219F2 /* KeyframeAnimation.swift */; };
-		37BD75BE20A5D306009219F2 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75BD20A5D306009219F2 /* SpringAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +58,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3724DDBE20A5DA5600584B56 /* AnimationGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGroup.swift; sourceTree = "<group>"; };
-		3724DDC020A5DDE500584B56 /* AnyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyAnimation.swift; sourceTree = "<group>"; };
-		3724DDC220A5DE3400584B56 /* TransitionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
-		3724DDC420A5FA2900584B56 /* TimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingFunction.swift; sourceTree = "<group>"; };
-		3724DDC620A61D1100584B56 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		07239C2320B733490016F553 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		07239C2420B733490016F553 /* TransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
+		07239C2520B733490016F553 /* PrimitiveAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitiveAnimation.swift; sourceTree = "<group>"; };
+		07239C2620B733490016F553 /* AnyAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyAnimation.swift; sourceTree = "<group>"; };
+		07239C2720B733490016F553 /* AnimationGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationGroup.swift; sourceTree = "<group>"; };
+		07239C2820B733490016F553 /* PropertyAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyAnimation.swift; sourceTree = "<group>"; };
+		07239C2920B733490016F553 /* BasicAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAnimation.swift; sourceTree = "<group>"; };
+		07239C2A20B733490016F553 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		07239C2B20B733490016F553 /* AnimationKeyPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationKeyPaths.swift; sourceTree = "<group>"; };
+		07239C2C20B733490016F553 /* TimingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingFunction.swift; sourceTree = "<group>"; };
+		07239C2D20B733490016F553 /* KeyframeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyframeAnimation.swift; sourceTree = "<group>"; };
+		0746D5BF20B5ADA400D21053 /* TheAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TheAnimation-Info.plist"; path = "/Users/carlos/Documents/GitTowerRepositories/TheAnimation/TheAnimation-Info.plist"; sourceTree = "<absolute>"; };
+		0746D5C520B5AE6600D21053 /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0746D5C720B5AE6600D21053 /* TheAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation.h; sourceTree = "<group>"; };
+		0746D5C820B5AE6600D21053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EB622220B5D8C600943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation_tvOS.h; sourceTree = "<group>"; };
+		07EB622520B5D8C600943B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BD759820A5D050009219F2 /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BD759B20A5D050009219F2 /* TheAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation.h; sourceTree = "<group>"; };
 		37BD759C20A5D050009219F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BD75A120A5D050009219F2 /* TheAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BD75A620A5D050009219F2 /* TheAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAnimationTests.swift; sourceTree = "<group>"; };
 		37BD75A820A5D050009219F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37BD75B320A5D112009219F2 /* AnimationKeyPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationKeyPaths.swift; sourceTree = "<group>"; };
-		37BD75B520A5D1DC009219F2 /* PrimitiveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveAnimation.swift; sourceTree = "<group>"; };
-		37BD75B720A5D2A7009219F2 /* PropertyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAnimation.swift; sourceTree = "<group>"; };
-		37BD75B920A5D2C8009219F2 /* BasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimation.swift; sourceTree = "<group>"; };
-		37BD75BB20A5D2ED009219F2 /* KeyframeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimation.swift; sourceTree = "<group>"; };
-		37BD75BD20A5D306009219F2 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0746D5C120B5AE6600D21053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EB621E20B5D8C600943B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37BD759420A5D050009219F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,12 +117,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07239C2220B733490016F553 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				07239C2320B733490016F553 /* Animation.swift */,
+				07239C2420B733490016F553 /* TransitionAnimation.swift */,
+				07239C2520B733490016F553 /* PrimitiveAnimation.swift */,
+				07239C2620B733490016F553 /* AnyAnimation.swift */,
+				07239C2720B733490016F553 /* AnimationGroup.swift */,
+				07239C2820B733490016F553 /* PropertyAnimation.swift */,
+				07239C2920B733490016F553 /* BasicAnimation.swift */,
+				07239C2A20B733490016F553 /* SpringAnimation.swift */,
+				07239C2B20B733490016F553 /* AnimationKeyPaths.swift */,
+				07239C2C20B733490016F553 /* TimingFunction.swift */,
+				07239C2D20B733490016F553 /* KeyframeAnimation.swift */,
+			);
+			name = Source;
+			path = TheAnimation/Source;
+			sourceTree = "<group>";
+		};
+		0746D5C620B5AE6600D21053 /* TheAnimation-macos */ = {
+			isa = PBXGroup;
+			children = (
+				0746D5C720B5AE6600D21053 /* TheAnimation.h */,
+				0746D5C820B5AE6600D21053 /* Info.plist */,
+			);
+			path = "TheAnimation-macos";
+			sourceTree = "<group>";
+		};
+		07EB622320B5D8C600943B5A /* TheAnimation-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */,
+				07EB622520B5D8C600943B5A /* Info.plist */,
+			);
+			path = "TheAnimation-tvOS";
+			sourceTree = "<group>";
+		};
 		37BD758E20A5D050009219F2 = {
 			isa = PBXGroup;
 			children = (
-				37BD759A20A5D050009219F2 /* TheAnimation */,
+				07239C2220B733490016F553 /* Source */,
+				37BD759A20A5D050009219F2 /* TheAnimation-iOS */,
 				37BD75A520A5D050009219F2 /* TheAnimationTests */,
+				0746D5C620B5AE6600D21053 /* TheAnimation-macos */,
+				07EB622320B5D8C600943B5A /* TheAnimation-tvOS */,
 				37BD759920A5D050009219F2 /* Products */,
+				0746D5BF20B5ADA400D21053 /* TheAnimation-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,18 +172,19 @@
 			children = (
 				37BD759820A5D050009219F2 /* TheAnimation.framework */,
 				37BD75A120A5D050009219F2 /* TheAnimationTests.xctest */,
+				0746D5C520B5AE6600D21053 /* TheAnimation.framework */,
+				07EB622220B5D8C600943B5A /* TheAnimation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37BD759A20A5D050009219F2 /* TheAnimation */ = {
+		37BD759A20A5D050009219F2 /* TheAnimation-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				37BD75B220A5D0E6009219F2 /* Source */,
 				37BD759B20A5D050009219F2 /* TheAnimation.h */,
 				37BD759C20A5D050009219F2 /* Info.plist */,
 			);
-			path = TheAnimation;
+			path = "TheAnimation-iOS";
 			sourceTree = "<group>";
 		};
 		37BD75A520A5D050009219F2 /* TheAnimationTests */ = {
@@ -109,27 +196,25 @@
 			path = TheAnimationTests;
 			sourceTree = "<group>";
 		};
-		37BD75B220A5D0E6009219F2 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				3724DDC620A61D1100584B56 /* Animation.swift */,
-				3724DDC020A5DDE500584B56 /* AnyAnimation.swift */,
-				37BD75B320A5D112009219F2 /* AnimationKeyPaths.swift */,
-				37BD75B520A5D1DC009219F2 /* PrimitiveAnimation.swift */,
-				37BD75B720A5D2A7009219F2 /* PropertyAnimation.swift */,
-				37BD75B920A5D2C8009219F2 /* BasicAnimation.swift */,
-				37BD75BB20A5D2ED009219F2 /* KeyframeAnimation.swift */,
-				37BD75BD20A5D306009219F2 /* SpringAnimation.swift */,
-				3724DDBE20A5DA5600584B56 /* AnimationGroup.swift */,
-				3724DDC220A5DE3400584B56 /* TransitionAnimation.swift */,
-				3724DDC420A5FA2900584B56 /* TimingFunction.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0746D5C220B5AE6600D21053 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0746D5C920B5AE6600D21053 /* TheAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EB621F20B5D8C600943B5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EB622620B5D8C600943B5A /* TheAnimation_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37BD759520A5D050009219F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,9 +226,45 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37BD759720A5D050009219F2 /* TheAnimation */ = {
+		0746D5C420B5AE6600D21053 /* TheAnimation-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37BD75AC20A5D050009219F2 /* Build configuration list for PBXNativeTarget "TheAnimation" */;
+			buildConfigurationList = 0746D5CA20B5AE6600D21053 /* Build configuration list for PBXNativeTarget "TheAnimation-macOS" */;
+			buildPhases = (
+				0746D5C020B5AE6600D21053 /* Sources */,
+				0746D5C120B5AE6600D21053 /* Frameworks */,
+				0746D5C220B5AE6600D21053 /* Headers */,
+				0746D5C320B5AE6600D21053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TheAnimation-macOS";
+			productName = "TheAnimation-macos";
+			productReference = 0746D5C520B5AE6600D21053 /* TheAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		07EB622120B5D8C600943B5A /* TheAnimation-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EB622920B5D8C600943B5A /* Build configuration list for PBXNativeTarget "TheAnimation-tvOS" */;
+			buildPhases = (
+				07EB621D20B5D8C600943B5A /* Sources */,
+				07EB621E20B5D8C600943B5A /* Frameworks */,
+				07EB621F20B5D8C600943B5A /* Headers */,
+				07EB622020B5D8C600943B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TheAnimation-tvOS";
+			productName = "TheAnimation-tvOS";
+			productReference = 07EB622220B5D8C600943B5A /* TheAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37BD759720A5D050009219F2 /* TheAnimation-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BD75AC20A5D050009219F2 /* Build configuration list for PBXNativeTarget "TheAnimation-iOS" */;
 			buildPhases = (
 				37BD759320A5D050009219F2 /* Sources */,
 				37BD759420A5D050009219F2 /* Frameworks */,
@@ -154,7 +275,7 @@
 			);
 			dependencies = (
 			);
-			name = TheAnimation;
+			name = "TheAnimation-iOS";
 			productName = TheAnimation;
 			productReference = 37BD759820A5D050009219F2 /* TheAnimation.framework */;
 			productType = "com.apple.product-type.framework";
@@ -187,6 +308,13 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "marty-suzuki";
 				TargetAttributes = {
+					0746D5C420B5AE6600D21053 = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
+					};
+					07EB622120B5D8C600943B5A = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
 					37BD759720A5D050009219F2 = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
@@ -202,19 +330,36 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 37BD758E20A5D050009219F2;
 			productRefGroup = 37BD759920A5D050009219F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37BD759720A5D050009219F2 /* TheAnimation */,
+				37BD759720A5D050009219F2 /* TheAnimation-iOS */,
 				37BD75A020A5D050009219F2 /* TheAnimationTests */,
+				0746D5C420B5AE6600D21053 /* TheAnimation-macOS */,
+				07EB622120B5D8C600943B5A /* TheAnimation-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0746D5C320B5AE6600D21053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EB622020B5D8C600943B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37BD759620A5D050009219F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,21 +377,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0746D5C020B5AE6600D21053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07239C3520B733490016F553 /* PrimitiveAnimation.swift in Sources */,
+				07239C3820B733490016F553 /* AnyAnimation.swift in Sources */,
+				07239C4D20B733490016F553 /* KeyframeAnimation.swift in Sources */,
+				07239C2F20B733490016F553 /* Animation.swift in Sources */,
+				07239C4420B733490016F553 /* SpringAnimation.swift in Sources */,
+				07239C3E20B733490016F553 /* PropertyAnimation.swift in Sources */,
+				07239C4A20B733490016F553 /* TimingFunction.swift in Sources */,
+				07239C3220B733490016F553 /* TransitionAnimation.swift in Sources */,
+				07239C3B20B733490016F553 /* AnimationGroup.swift in Sources */,
+				07239C4120B733490016F553 /* BasicAnimation.swift in Sources */,
+				07239C4720B733490016F553 /* AnimationKeyPaths.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07EB621D20B5D8C600943B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07239C3620B733490016F553 /* PrimitiveAnimation.swift in Sources */,
+				07239C3920B733490016F553 /* AnyAnimation.swift in Sources */,
+				07239C4E20B733490016F553 /* KeyframeAnimation.swift in Sources */,
+				07239C3020B733490016F553 /* Animation.swift in Sources */,
+				07239C4520B733490016F553 /* SpringAnimation.swift in Sources */,
+				07239C3F20B733490016F553 /* PropertyAnimation.swift in Sources */,
+				07239C4B20B733490016F553 /* TimingFunction.swift in Sources */,
+				07239C3320B733490016F553 /* TransitionAnimation.swift in Sources */,
+				07239C3C20B733490016F553 /* AnimationGroup.swift in Sources */,
+				07239C4220B733490016F553 /* BasicAnimation.swift in Sources */,
+				07239C4820B733490016F553 /* AnimationKeyPaths.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37BD759320A5D050009219F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3724DDC720A61D1100584B56 /* Animation.swift in Sources */,
-				37BD75B820A5D2A7009219F2 /* PropertyAnimation.swift in Sources */,
-				37BD75BA20A5D2C8009219F2 /* BasicAnimation.swift in Sources */,
-				3724DDC320A5DE3400584B56 /* TransitionAnimation.swift in Sources */,
-				37BD75BC20A5D2ED009219F2 /* KeyframeAnimation.swift in Sources */,
-				37BD75BE20A5D306009219F2 /* SpringAnimation.swift in Sources */,
-				3724DDC520A5FA2900584B56 /* TimingFunction.swift in Sources */,
-				37BD75B620A5D1DC009219F2 /* PrimitiveAnimation.swift in Sources */,
-				3724DDC120A5DDE500584B56 /* AnyAnimation.swift in Sources */,
-				37BD75B420A5D112009219F2 /* AnimationKeyPaths.swift in Sources */,
-				3724DDBF20A5DA5600584B56 /* AnimationGroup.swift in Sources */,
+				07239C3420B733490016F553 /* PrimitiveAnimation.swift in Sources */,
+				07239C3720B733490016F553 /* AnyAnimation.swift in Sources */,
+				07239C4C20B733490016F553 /* KeyframeAnimation.swift in Sources */,
+				07239C2E20B733490016F553 /* Animation.swift in Sources */,
+				07239C4320B733490016F553 /* SpringAnimation.swift in Sources */,
+				07239C3D20B733490016F553 /* PropertyAnimation.swift in Sources */,
+				07239C4920B733490016F553 /* TimingFunction.swift in Sources */,
+				07239C3120B733490016F553 /* TransitionAnimation.swift in Sources */,
+				07239C3A20B733490016F553 /* AnimationGroup.swift in Sources */,
+				07239C4020B733490016F553 /* BasicAnimation.swift in Sources */,
+				07239C4620B733490016F553 /* AnimationKeyPaths.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,12 +444,127 @@
 /* Begin PBXTargetDependency section */
 		37BD75A420A5D050009219F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37BD759720A5D050009219F2 /* TheAnimation */;
+			target = 37BD759720A5D050009219F2 /* TheAnimation-iOS */;
 			targetProxy = 37BD75A320A5D050009219F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0746D5CB20B5AE6600D21053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "TheAnimation-macos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimation";
+				PRODUCT_NAME = TheAnimation;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		0746D5CC20B5AE6600D21053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "TheAnimation-macos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimation";
+				PRODUCT_NAME = TheAnimation;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		07EB622720B5D8C600943B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TheAnimation-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "es.carlosypunto.TheAnimation-tvOS";
+				PRODUCT_NAME = TheAnimation;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		07EB622820B5D8C600943B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TheAnimation-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "es.carlosypunto.TheAnimation-tvOS";
+				PRODUCT_NAME = TheAnimation;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		37BD75AA20A5D050009219F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -400,7 +696,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TheAnimation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -409,7 +705,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimation";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TheAnimation;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -429,7 +725,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TheAnimation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,7 +734,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimation";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TheAnimation;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -489,6 +785,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0746D5CA20B5AE6600D21053 /* Build configuration list for PBXNativeTarget "TheAnimation-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0746D5CB20B5AE6600D21053 /* Debug */,
+				0746D5CC20B5AE6600D21053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07EB622920B5D8C600943B5A /* Build configuration list for PBXNativeTarget "TheAnimation-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EB622720B5D8C600943B5A /* Debug */,
+				07EB622820B5D8C600943B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		37BD759220A5D050009219F2 /* Build configuration list for PBXProject "TheAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -498,7 +812,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37BD75AC20A5D050009219F2 /* Build configuration list for PBXNativeTarget "TheAnimation" */ = {
+		37BD75AC20A5D050009219F2 /* Build configuration list for PBXNativeTarget "TheAnimation-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37BD75AD20A5D050009219F2 /* Debug */,

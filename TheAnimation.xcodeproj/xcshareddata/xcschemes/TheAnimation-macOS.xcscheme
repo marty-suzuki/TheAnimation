@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37BD759720A5D050009219F2"
+               BlueprintIdentifier = "0746D5C420B5AE6600D21053"
                BuildableName = "TheAnimation.framework"
-               BlueprintName = "TheAnimation"
+               BlueprintName = "TheAnimation-macOS"
                ReferencedContainer = "container:TheAnimation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37BD75A020A5D050009219F2"
-               BuildableName = "TheAnimationTests.xctest"
-               BlueprintName = "TheAnimationTests"
-               ReferencedContainer = "container:TheAnimation.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37BD759720A5D050009219F2"
-            BuildableName = "TheAnimation.framework"
-            BlueprintName = "TheAnimation"
-            ReferencedContainer = "container:TheAnimation.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37BD759720A5D050009219F2"
+            BlueprintIdentifier = "0746D5C420B5AE6600D21053"
             BuildableName = "TheAnimation.framework"
-            BlueprintName = "TheAnimation"
+            BlueprintName = "TheAnimation-macOS"
             ReferencedContainer = "container:TheAnimation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37BD759720A5D050009219F2"
+            BlueprintIdentifier = "0746D5C420B5AE6600D21053"
             BuildableName = "TheAnimation.framework"
-            BlueprintName = "TheAnimation"
+            BlueprintName = "TheAnimation-macOS"
             ReferencedContainer = "container:TheAnimation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

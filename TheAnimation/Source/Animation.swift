@@ -6,7 +6,14 @@
 //  Copyright © 2018年 marty-suzuki. All rights reserved.
 //
 
-import CoreGraphics
+#if os(iOS) || os(watchOS) || os(tvOS)
+import UIKit
+public typealias View = UIView
+#elseif os(OSX)
+import AppKit
+public typealias View = NSView
+#endif
+import QuartzCore.CoreAnimation
 
 public protocol Animation: class {
     var animation: CAAnimation { get }
@@ -83,8 +90,17 @@ extension Animation {
     }
 
     @discardableResult
-    public func animate(in view: UIView) -> AnimationCanceller {
+    public func animate(in view: View) -> AnimationCanceller {
+        #if os(iOS) || os(watchOS) || os(tvOS)
         return animate(in: view.layer)
+        #elseif os(OSX)
+        view.wantsLayer = true
+        if let layer = view.layer {
+            return animate(in: layer)
+        } else {
+            fatalError("view.layer is nil in \(#file)_\(#function)_\(#line)")
+        }
+        #endif
     }
 }
 

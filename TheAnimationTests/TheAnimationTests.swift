@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TheAnimation
+@testable import TheAnimation_iOS
 
 class TheAnimationTests: XCTestCase {
     
