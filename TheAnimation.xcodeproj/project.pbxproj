@@ -7,44 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07239C2E20B733490016F553 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2320B733490016F553 /* Animation.swift */; };
+		07239C2F20B733490016F553 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2320B733490016F553 /* Animation.swift */; };
+		07239C3020B733490016F553 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2320B733490016F553 /* Animation.swift */; };
+		07239C3120B733490016F553 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2420B733490016F553 /* TransitionAnimation.swift */; };
+		07239C3220B733490016F553 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2420B733490016F553 /* TransitionAnimation.swift */; };
+		07239C3320B733490016F553 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2420B733490016F553 /* TransitionAnimation.swift */; };
+		07239C3420B733490016F553 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2520B733490016F553 /* PrimitiveAnimation.swift */; };
+		07239C3520B733490016F553 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2520B733490016F553 /* PrimitiveAnimation.swift */; };
+		07239C3620B733490016F553 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2520B733490016F553 /* PrimitiveAnimation.swift */; };
+		07239C3720B733490016F553 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2620B733490016F553 /* AnyAnimation.swift */; };
+		07239C3820B733490016F553 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2620B733490016F553 /* AnyAnimation.swift */; };
+		07239C3920B733490016F553 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2620B733490016F553 /* AnyAnimation.swift */; };
+		07239C3A20B733490016F553 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2720B733490016F553 /* AnimationGroup.swift */; };
+		07239C3B20B733490016F553 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2720B733490016F553 /* AnimationGroup.swift */; };
+		07239C3C20B733490016F553 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2720B733490016F553 /* AnimationGroup.swift */; };
+		07239C3D20B733490016F553 /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2820B733490016F553 /* PropertyAnimation.swift */; };
+		07239C3E20B733490016F553 /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2820B733490016F553 /* PropertyAnimation.swift */; };
+		07239C3F20B733490016F553 /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2820B733490016F553 /* PropertyAnimation.swift */; };
+		07239C4020B733490016F553 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2920B733490016F553 /* BasicAnimation.swift */; };
+		07239C4120B733490016F553 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2920B733490016F553 /* BasicAnimation.swift */; };
+		07239C4220B733490016F553 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2920B733490016F553 /* BasicAnimation.swift */; };
+		07239C4320B733490016F553 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2A20B733490016F553 /* SpringAnimation.swift */; };
+		07239C4420B733490016F553 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2A20B733490016F553 /* SpringAnimation.swift */; };
+		07239C4520B733490016F553 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2A20B733490016F553 /* SpringAnimation.swift */; };
+		07239C4620B733490016F553 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2B20B733490016F553 /* AnimationKeyPaths.swift */; };
+		07239C4720B733490016F553 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2B20B733490016F553 /* AnimationKeyPaths.swift */; };
+		07239C4820B733490016F553 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2B20B733490016F553 /* AnimationKeyPaths.swift */; };
+		07239C4920B733490016F553 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2C20B733490016F553 /* TimingFunction.swift */; };
+		07239C4A20B733490016F553 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2C20B733490016F553 /* TimingFunction.swift */; };
+		07239C4B20B733490016F553 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2C20B733490016F553 /* TimingFunction.swift */; };
+		07239C4C20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
+		07239C4D20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
+		07239C4E20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
 		0746D5C920B5AE6600D21053 /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0746D5C720B5AE6600D21053 /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0746D5D320B5B63800D21053 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC620A61D1100584B56 /* Animation.swift */; };
-		0746D5D420B5B63800D21053 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC020A5DDE500584B56 /* AnyAnimation.swift */; };
-		0746D5D520B5B63800D21053 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B320A5D112009219F2 /* AnimationKeyPaths.swift */; };
-		0746D5D620B5B63800D21053 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B520A5D1DC009219F2 /* PrimitiveAnimation.swift */; };
-		0746D5D720B5B63800D21053 /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B720A5D2A7009219F2 /* PropertyAnimation.swift */; };
-		0746D5D820B5B63800D21053 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B920A5D2C8009219F2 /* BasicAnimation.swift */; };
-		0746D5D920B5B63800D21053 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75BB20A5D2ED009219F2 /* KeyframeAnimation.swift */; };
-		0746D5DA20B5B63800D21053 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75BD20A5D306009219F2 /* SpringAnimation.swift */; };
-		0746D5DB20B5B63800D21053 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDBE20A5DA5600584B56 /* AnimationGroup.swift */; };
-		0746D5DC20B5B63800D21053 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC220A5DE3400584B56 /* TransitionAnimation.swift */; };
-		0746D5DD20B5B63800D21053 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC420A5FA2900584B56 /* TimingFunction.swift */; };
 		07EB622620B5D8C600943B5A /* TheAnimation_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07EB622A20B5D8E600943B5A /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC620A61D1100584B56 /* Animation.swift */; };
-		07EB622B20B5D8E600943B5A /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC020A5DDE500584B56 /* AnyAnimation.swift */; };
-		07EB622C20B5D8E600943B5A /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B320A5D112009219F2 /* AnimationKeyPaths.swift */; };
-		07EB622D20B5D8E600943B5A /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B520A5D1DC009219F2 /* PrimitiveAnimation.swift */; };
-		07EB622E20B5D8E600943B5A /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B720A5D2A7009219F2 /* PropertyAnimation.swift */; };
-		07EB622F20B5D8E600943B5A /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B920A5D2C8009219F2 /* BasicAnimation.swift */; };
-		07EB623020B5D8E600943B5A /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75BB20A5D2ED009219F2 /* KeyframeAnimation.swift */; };
-		07EB623120B5D8E600943B5A /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75BD20A5D306009219F2 /* SpringAnimation.swift */; };
-		07EB623220B5D8E600943B5A /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDBE20A5DA5600584B56 /* AnimationGroup.swift */; };
-		07EB623320B5D8E600943B5A /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC220A5DE3400584B56 /* TransitionAnimation.swift */; };
-		07EB623420B5D8E600943B5A /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC420A5FA2900584B56 /* TimingFunction.swift */; };
-		3724DDBF20A5DA5600584B56 /* AnimationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDBE20A5DA5600584B56 /* AnimationGroup.swift */; };
-		3724DDC120A5DDE500584B56 /* AnyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC020A5DDE500584B56 /* AnyAnimation.swift */; };
-		3724DDC320A5DE3400584B56 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC220A5DE3400584B56 /* TransitionAnimation.swift */; };
-		3724DDC520A5FA2900584B56 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC420A5FA2900584B56 /* TimingFunction.swift */; };
-		3724DDC720A61D1100584B56 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724DDC620A61D1100584B56 /* Animation.swift */; };
 		37BD75A220A5D050009219F2 /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BD759820A5D050009219F2 /* TheAnimation.framework */; };
 		37BD75A720A5D050009219F2 /* TheAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75A620A5D050009219F2 /* TheAnimationTests.swift */; };
 		37BD75A920A5D050009219F2 /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD759B20A5D050009219F2 /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37BD75B420A5D112009219F2 /* AnimationKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B320A5D112009219F2 /* AnimationKeyPaths.swift */; };
-		37BD75B620A5D1DC009219F2 /* PrimitiveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B520A5D1DC009219F2 /* PrimitiveAnimation.swift */; };
-		37BD75B820A5D2A7009219F2 /* PropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B720A5D2A7009219F2 /* PropertyAnimation.swift */; };
-		37BD75BA20A5D2C8009219F2 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75B920A5D2C8009219F2 /* BasicAnimation.swift */; };
-		37BD75BC20A5D2ED009219F2 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75BB20A5D2ED009219F2 /* KeyframeAnimation.swift */; };
-		37BD75BE20A5D306009219F2 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75BD20A5D306009219F2 /* SpringAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +58,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07239C2320B733490016F553 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		07239C2420B733490016F553 /* TransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
+		07239C2520B733490016F553 /* PrimitiveAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitiveAnimation.swift; sourceTree = "<group>"; };
+		07239C2620B733490016F553 /* AnyAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyAnimation.swift; sourceTree = "<group>"; };
+		07239C2720B733490016F553 /* AnimationGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationGroup.swift; sourceTree = "<group>"; };
+		07239C2820B733490016F553 /* PropertyAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyAnimation.swift; sourceTree = "<group>"; };
+		07239C2920B733490016F553 /* BasicAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAnimation.swift; sourceTree = "<group>"; };
+		07239C2A20B733490016F553 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		07239C2B20B733490016F553 /* AnimationKeyPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationKeyPaths.swift; sourceTree = "<group>"; };
+		07239C2C20B733490016F553 /* TimingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingFunction.swift; sourceTree = "<group>"; };
+		07239C2D20B733490016F553 /* KeyframeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyframeAnimation.swift; sourceTree = "<group>"; };
 		0746D5BF20B5ADA400D21053 /* TheAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TheAnimation-Info.plist"; path = "/Users/carlos/Documents/GitTowerRepositories/TheAnimation/TheAnimation-Info.plist"; sourceTree = "<absolute>"; };
 		0746D5C520B5AE6600D21053 /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0746D5C720B5AE6600D21053 /* TheAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation.h; sourceTree = "<group>"; };
@@ -65,23 +76,12 @@
 		07EB622220B5D8C600943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation_tvOS.h; sourceTree = "<group>"; };
 		07EB622520B5D8C600943B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3724DDBE20A5DA5600584B56 /* AnimationGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGroup.swift; sourceTree = "<group>"; };
-		3724DDC020A5DDE500584B56 /* AnyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyAnimation.swift; sourceTree = "<group>"; };
-		3724DDC220A5DE3400584B56 /* TransitionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
-		3724DDC420A5FA2900584B56 /* TimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingFunction.swift; sourceTree = "<group>"; };
-		3724DDC620A61D1100584B56 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		37BD759820A5D050009219F2 /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BD759B20A5D050009219F2 /* TheAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation.h; sourceTree = "<group>"; };
 		37BD759C20A5D050009219F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BD75A120A5D050009219F2 /* TheAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BD75A620A5D050009219F2 /* TheAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAnimationTests.swift; sourceTree = "<group>"; };
 		37BD75A820A5D050009219F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37BD75B320A5D112009219F2 /* AnimationKeyPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationKeyPaths.swift; sourceTree = "<group>"; };
-		37BD75B520A5D1DC009219F2 /* PrimitiveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveAnimation.swift; sourceTree = "<group>"; };
-		37BD75B720A5D2A7009219F2 /* PropertyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAnimation.swift; sourceTree = "<group>"; };
-		37BD75B920A5D2C8009219F2 /* BasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimation.swift; sourceTree = "<group>"; };
-		37BD75BB20A5D2ED009219F2 /* KeyframeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimation.swift; sourceTree = "<group>"; };
-		37BD75BD20A5D306009219F2 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +117,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07239C2220B733490016F553 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				07239C2320B733490016F553 /* Animation.swift */,
+				07239C2420B733490016F553 /* TransitionAnimation.swift */,
+				07239C2520B733490016F553 /* PrimitiveAnimation.swift */,
+				07239C2620B733490016F553 /* AnyAnimation.swift */,
+				07239C2720B733490016F553 /* AnimationGroup.swift */,
+				07239C2820B733490016F553 /* PropertyAnimation.swift */,
+				07239C2920B733490016F553 /* BasicAnimation.swift */,
+				07239C2A20B733490016F553 /* SpringAnimation.swift */,
+				07239C2B20B733490016F553 /* AnimationKeyPaths.swift */,
+				07239C2C20B733490016F553 /* TimingFunction.swift */,
+				07239C2D20B733490016F553 /* KeyframeAnimation.swift */,
+			);
+			name = Source;
+			path = TheAnimation/Source;
+			sourceTree = "<group>";
+		};
 		0746D5C620B5AE6600D21053 /* TheAnimation-macos */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +157,7 @@
 		37BD758E20A5D050009219F2 = {
 			isa = PBXGroup;
 			children = (
-				37BD75B220A5D0E6009219F2 /* Source */,
+				07239C2220B733490016F553 /* Source */,
 				37BD759A20A5D050009219F2 /* TheAnimation-iOS */,
 				37BD75A520A5D050009219F2 /* TheAnimationTests */,
 				0746D5C620B5AE6600D21053 /* TheAnimation-macos */,
@@ -175,24 +194,6 @@
 				37BD75A820A5D050009219F2 /* Info.plist */,
 			);
 			path = TheAnimationTests;
-			sourceTree = "<group>";
-		};
-		37BD75B220A5D0E6009219F2 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				3724DDC620A61D1100584B56 /* Animation.swift */,
-				3724DDC020A5DDE500584B56 /* AnyAnimation.swift */,
-				37BD75B320A5D112009219F2 /* AnimationKeyPaths.swift */,
-				37BD75B520A5D1DC009219F2 /* PrimitiveAnimation.swift */,
-				37BD75B720A5D2A7009219F2 /* PropertyAnimation.swift */,
-				37BD75B920A5D2C8009219F2 /* BasicAnimation.swift */,
-				37BD75BB20A5D2ED009219F2 /* KeyframeAnimation.swift */,
-				37BD75BD20A5D306009219F2 /* SpringAnimation.swift */,
-				3724DDBE20A5DA5600584B56 /* AnimationGroup.swift */,
-				3724DDC220A5DE3400584B56 /* TransitionAnimation.swift */,
-				3724DDC420A5FA2900584B56 /* TimingFunction.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,17 +381,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0746D5D420B5B63800D21053 /* AnyAnimation.swift in Sources */,
-				0746D5DD20B5B63800D21053 /* TimingFunction.swift in Sources */,
-				0746D5D320B5B63800D21053 /* Animation.swift in Sources */,
-				0746D5D720B5B63800D21053 /* PropertyAnimation.swift in Sources */,
-				0746D5DB20B5B63800D21053 /* AnimationGroup.swift in Sources */,
-				0746D5D520B5B63800D21053 /* AnimationKeyPaths.swift in Sources */,
-				0746D5D620B5B63800D21053 /* PrimitiveAnimation.swift in Sources */,
-				0746D5DA20B5B63800D21053 /* SpringAnimation.swift in Sources */,
-				0746D5D920B5B63800D21053 /* KeyframeAnimation.swift in Sources */,
-				0746D5DC20B5B63800D21053 /* TransitionAnimation.swift in Sources */,
-				0746D5D820B5B63800D21053 /* BasicAnimation.swift in Sources */,
+				07239C3520B733490016F553 /* PrimitiveAnimation.swift in Sources */,
+				07239C3820B733490016F553 /* AnyAnimation.swift in Sources */,
+				07239C4D20B733490016F553 /* KeyframeAnimation.swift in Sources */,
+				07239C2F20B733490016F553 /* Animation.swift in Sources */,
+				07239C4420B733490016F553 /* SpringAnimation.swift in Sources */,
+				07239C3E20B733490016F553 /* PropertyAnimation.swift in Sources */,
+				07239C4A20B733490016F553 /* TimingFunction.swift in Sources */,
+				07239C3220B733490016F553 /* TransitionAnimation.swift in Sources */,
+				07239C3B20B733490016F553 /* AnimationGroup.swift in Sources */,
+				07239C4120B733490016F553 /* BasicAnimation.swift in Sources */,
+				07239C4720B733490016F553 /* AnimationKeyPaths.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,17 +399,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EB622D20B5D8E600943B5A /* PrimitiveAnimation.swift in Sources */,
-				07EB622E20B5D8E600943B5A /* PropertyAnimation.swift in Sources */,
-				07EB623020B5D8E600943B5A /* KeyframeAnimation.swift in Sources */,
-				07EB623120B5D8E600943B5A /* SpringAnimation.swift in Sources */,
-				07EB623220B5D8E600943B5A /* AnimationGroup.swift in Sources */,
-				07EB623320B5D8E600943B5A /* TransitionAnimation.swift in Sources */,
-				07EB622A20B5D8E600943B5A /* Animation.swift in Sources */,
-				07EB623420B5D8E600943B5A /* TimingFunction.swift in Sources */,
-				07EB622B20B5D8E600943B5A /* AnyAnimation.swift in Sources */,
-				07EB622C20B5D8E600943B5A /* AnimationKeyPaths.swift in Sources */,
-				07EB622F20B5D8E600943B5A /* BasicAnimation.swift in Sources */,
+				07239C3620B733490016F553 /* PrimitiveAnimation.swift in Sources */,
+				07239C3920B733490016F553 /* AnyAnimation.swift in Sources */,
+				07239C4E20B733490016F553 /* KeyframeAnimation.swift in Sources */,
+				07239C3020B733490016F553 /* Animation.swift in Sources */,
+				07239C4520B733490016F553 /* SpringAnimation.swift in Sources */,
+				07239C3F20B733490016F553 /* PropertyAnimation.swift in Sources */,
+				07239C4B20B733490016F553 /* TimingFunction.swift in Sources */,
+				07239C3320B733490016F553 /* TransitionAnimation.swift in Sources */,
+				07239C3C20B733490016F553 /* AnimationGroup.swift in Sources */,
+				07239C4220B733490016F553 /* BasicAnimation.swift in Sources */,
+				07239C4820B733490016F553 /* AnimationKeyPaths.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,17 +417,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3724DDC720A61D1100584B56 /* Animation.swift in Sources */,
-				37BD75B820A5D2A7009219F2 /* PropertyAnimation.swift in Sources */,
-				37BD75BA20A5D2C8009219F2 /* BasicAnimation.swift in Sources */,
-				3724DDC320A5DE3400584B56 /* TransitionAnimation.swift in Sources */,
-				37BD75BC20A5D2ED009219F2 /* KeyframeAnimation.swift in Sources */,
-				37BD75BE20A5D306009219F2 /* SpringAnimation.swift in Sources */,
-				3724DDC520A5FA2900584B56 /* TimingFunction.swift in Sources */,
-				37BD75B620A5D1DC009219F2 /* PrimitiveAnimation.swift in Sources */,
-				3724DDC120A5DDE500584B56 /* AnyAnimation.swift in Sources */,
-				37BD75B420A5D112009219F2 /* AnimationKeyPaths.swift in Sources */,
-				3724DDBF20A5DA5600584B56 /* AnimationGroup.swift in Sources */,
+				07239C3420B733490016F553 /* PrimitiveAnimation.swift in Sources */,
+				07239C3720B733490016F553 /* AnyAnimation.swift in Sources */,
+				07239C4C20B733490016F553 /* KeyframeAnimation.swift in Sources */,
+				07239C2E20B733490016F553 /* Animation.swift in Sources */,
+				07239C4320B733490016F553 /* SpringAnimation.swift in Sources */,
+				07239C3D20B733490016F553 /* PropertyAnimation.swift in Sources */,
+				07239C4920B733490016F553 /* TimingFunction.swift in Sources */,
+				07239C3120B733490016F553 /* TransitionAnimation.swift in Sources */,
+				07239C3A20B733490016F553 /* AnimationGroup.swift in Sources */,
+				07239C4020B733490016F553 /* BasicAnimation.swift in Sources */,
+				07239C4620B733490016F553 /* AnimationKeyPaths.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
