@@ -8,7 +8,7 @@
 
 import QuartzCore.CoreAnimation
 
-public typealias PropertyAnimation<ValueType: AnimationValueType> = PrimitiveAnimation<CAPropertyAnimation, ValueType>
+public typealias PropertyAnimation<ValueType: AnimationValueType, LayerType: CALayer> = PrimitiveAnimation<CAPropertyAnimation, ValueType, LayerType>
 
 extension PrimitiveAnimation where RawAnimation: CAPropertyAnimation {
     public var isAdditive: Bool {

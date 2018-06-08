@@ -11,7 +11,6 @@
 		0746D60020B5C14C00D21053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746D5FF20B5C14C00D21053 /* ViewController.swift */; };
 		0746D60220B5C14D00D21053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0746D60120B5C14D00D21053 /* Assets.xcassets */; };
 		0746D60520B5C14D00D21053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0746D60320B5C14D00D21053 /* Main.storyboard */; };
-		0746D60D20B5C23E00D21053 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0746D60C20B5C23E00D21053 /* Default-568h@2x.png */; };
 		07EB621020B5D7BB00943B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB620F20B5D7BB00943B5A /* AppDelegate.swift */; };
 		07EB621220B5D7BB00943B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB621120B5D7BB00943B5A /* ViewController.swift */; };
 		07EB621520B5D7BB00943B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EB621320B5D7BB00943B5A /* Main.storyboard */; };
@@ -33,8 +32,6 @@
 		0746D60120B5C14D00D21053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0746D60420B5C14D00D21053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0746D60620B5C14D00D21053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0746D60720B5C14D00D21053 /* TheAnimationExample_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheAnimationExample_macOS.entitlements; sourceTree = "<group>"; };
-		0746D60C20B5C23E00D21053 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		07EB620D20B5D7BB00943B5A /* TheAnimationExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheAnimationExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EB620F20B5D7BB00943B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07EB621120B5D7BB00943B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +87,6 @@
 				0746D60120B5C14D00D21053 /* Assets.xcassets */,
 				0746D60320B5C14D00D21053 /* Main.storyboard */,
 				0746D60620B5C14D00D21053 /* Info.plist */,
-				0746D60720B5C14D00D21053 /* TheAnimationExample_macOS.entitlements */,
 			);
 			path = "TheAnimationExample-macOS";
 			sourceTree = "<group>";
@@ -110,7 +106,6 @@
 		3724DDC820A6CA3200584B56 = {
 			isa = PBXGroup;
 			children = (
-				0746D60C20B5C23E00D21053 /* Default-568h@2x.png */,
 				3724DDD320A6CA3200584B56 /* TheAnimationExample-iOS */,
 				0746D5FC20B5C14C00D21053 /* TheAnimationExample-macOS */,
 				07EB620E20B5D7BB00943B5A /* TheAnimationExample-tvOS */,
@@ -219,6 +214,11 @@
 				TargetAttributes = {
 					0746D5FA20B5C14C00D21053 = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					07EB620C20B5D7BB00943B5A = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -272,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3724DDDF20A6CA3300584B56 /* LaunchScreen.storyboard in Resources */,
-				0746D60D20B5C23E00D21053 /* Default-568h@2x.png in Resources */,
 				3724DDDC20A6CA3300584B56 /* Assets.xcassets in Resources */,
 				3724DDDA20A6CA3200584B56 /* Main.storyboard in Resources */,
 			);
@@ -350,11 +349,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "TheAnimationExample-macOS/TheAnimationExample_macOS.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2V65Z4JB29;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "TheAnimationExample-macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -363,6 +361,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
 			};
@@ -372,11 +371,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "TheAnimationExample-macOS/TheAnimationExample_macOS.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2V65Z4JB29;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "TheAnimationExample-macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,6 +383,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.marty-suzuki.TheAnimationExample-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
 			};
@@ -395,7 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2V65Z4JB29;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "TheAnimationExample-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -415,7 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2V65Z4JB29;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "TheAnimationExample-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

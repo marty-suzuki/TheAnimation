@@ -11,9 +11,11 @@ import QuartzCore.CoreAnimation
 public final class AnyAnimation: Animation {
     public let animation: CAAnimation
     public let key: String
+    public let layer: CALayer
 
-    init(animation: CAAnimation, key: String) {
+    init(animation: CAAnimation, key: String, layer: CALayer) {
         self.animation = animation
         self.key = key
+        self.layer = layer
     }
 }

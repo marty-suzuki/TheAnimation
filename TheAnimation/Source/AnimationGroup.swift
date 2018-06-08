@@ -8,8 +8,9 @@
 
 import QuartzCore.CoreAnimation
 
-public final class AnimationGroup: Animation {
+public final class AnimationGroup<LayerType: CALayer>: Animation {
     public let key: String
+    public let layer: CALayer
 
     public var animation: CAAnimation {
         return _animation
@@ -17,7 +18,7 @@ public final class AnimationGroup: Animation {
 
     public var animations: [Animation] {
         set {
-            keys = newValue.map { $0.key }
+            keysAndLayers = newValue.map { ($0.key, $0.layer) }
             _animation.animations = newValue.map { $0.animation }
         }
         get {
@@ -25,17 +26,23 @@ public final class AnimationGroup: Animation {
                 return []
             }
             return animations.enumerated().map { offset, element in
-                AnyAnimation(animation: element, key: keys[offset])
+                let (key, layer) = keysAndLayers[offset]
+                return AnyAnimation(animation: element, key: key, layer: layer)
             }
         }
     }
 
-    private var keys: [String] = []
+    private var keysAndLayers: [(String, CALayer)] = []
 
     let _animation: CAAnimationGroup
 
-    public init() {
+    public init(layer: LayerType) {
         self._animation = CAAnimationGroup()
         self.key = "group"
+        self.layer = layer
+    }
+
+    public func add<T: Animation>(_ animation: T) {
+        animations.append(animation)
     }
 }

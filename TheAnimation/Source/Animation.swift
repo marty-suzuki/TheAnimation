@@ -18,6 +18,7 @@ import QuartzCore.CoreAnimation
 public protocol Animation: class {
     var animation: CAAnimation { get }
     var key: String { get }
+    var layer: CALayer { get }
 }
 
 extension Animation {
@@ -71,11 +72,11 @@ extension Animation {
         get { return FillMode(rawValue: animation.fillMode) }
     }
 
-    public static func defaultValue<T: AnimationValueType>(for keyPath: AnimationKeyPath<T>) -> T? {
+    public static func defaultValue<T: AnimationValueType, U: CALayer>(for keyPath: AnimationKeyPath<T, U>) -> T? {
         return CAAnimation.defaultValue(forKey: keyPath.rawValue) as? T
     }
 
-    public func shouldArchiveValue<T: AnimationValueType>(for keyPath: AnimationKeyPath<T>) -> Bool {
+    public func shouldArchiveValue<T: AnimationValueType, U: CALayer>(for keyPath: AnimationKeyPath<T, U>) -> Bool {
         return animation.shouldArchiveValue(forKey: keyPath.rawValue)
     }
 
@@ -83,24 +84,16 @@ extension Animation {
         animation.run(forKey: event, object: anObject, arguments: dict)
     }
 
-    @discardableResult
-    public func animate(in layer: CALayer) -> AnimationCanceller {
+    public func startAnimating() {
         layer.add(animation, forKey: key)
-        return AnimationCanceller(layer: layer, key: key)
     }
 
-    @discardableResult
-    public func animate(in view: View) -> AnimationCanceller {
-        #if os(iOS) || os(watchOS) || os(tvOS)
-        return animate(in: view.layer)
-        #elseif os(OSX)
-        view.wantsLayer = true
-        if let layer = view.layer {
-            return animate(in: layer)
-        } else {
-            fatalError("view.layer is nil in \(#file)_\(#function)_\(#line)")
-        }
-        #endif
+    public func stopAnimationg() {
+        layer.removeAnimation(forKey: key)
+    }
+
+    public func asAnyAnimation() -> AnyAnimation {
+        return AnyAnimation(animation: animation, key: key, layer: layer)
     }
 }
 
@@ -111,13 +104,4 @@ public struct FillMode {
     public static let removed   = FillMode(rawValue: kCAFillModeRemoved)
 
     let rawValue: String
-}
-
-public struct AnimationCanceller {
-    let layer: CALayer
-    let key: String
-
-    public func cancelAnimation() {
-        layer.removeAnimation(forKey: key)
-    }
 }

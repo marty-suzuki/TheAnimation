@@ -8,7 +8,7 @@
 
 import QuartzCore.CoreAnimation
 
-public typealias KeyframeAnimation<ValueType: AnimationValueType> = PrimitiveAnimation<CAKeyframeAnimation, ValueType>
+public typealias KeyframeAnimation<ValueType: AnimationValueType, LayerType: CALayer> = PrimitiveAnimation<CAKeyframeAnimation, ValueType, LayerType>
 
 extension PrimitiveAnimation where RawAnimation == CAKeyframeAnimation {
     public var values: [ValueType] {

@@ -8,7 +8,7 @@
 
 import QuartzCore.CoreAnimation
 
-public typealias SpringAnimation<ValueType: AnimationValueType> = PrimitiveAnimation<CASpringAnimation, ValueType>
+public typealias SpringAnimation<ValueType: AnimationValueType, LayerType: CALayer> = PrimitiveAnimation<CASpringAnimation, ValueType, LayerType>
 
 extension PrimitiveAnimation where RawAnimation == CASpringAnimation {
     public var mass: CGFloat {

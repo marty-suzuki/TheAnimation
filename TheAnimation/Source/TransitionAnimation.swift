@@ -14,6 +14,7 @@ public final class TransitionAnimation: Animation {
     }
 
     public let key: String
+    public let layer: CALayer
 
     let _animation: CATransition
 
@@ -37,9 +38,10 @@ public final class TransitionAnimation: Animation {
         get { return TimeInterval(_animation.endProgress) }
     }
 
-    init() {
+    init(layer: CALayer) {
         self._animation = CATransition()
         self.key = "transition"
+        self.layer = layer
     }
 }
 
