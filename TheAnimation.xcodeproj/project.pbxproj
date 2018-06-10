@@ -42,6 +42,7 @@
 		07239C4E20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
 		0746D5C920B5AE6600D21053 /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0746D5C720B5AE6600D21053 /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07EB622620B5D8C600943B5A /* TheAnimation_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		376D1CD220CD8BE4002F90FD /* AnimationKeyPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D1CD120CD8BE4002F90FD /* AnimationKeyPathTests.swift */; };
 		37BD75A220A5D050009219F2 /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BD759820A5D050009219F2 /* TheAnimation.framework */; };
 		37BD75A720A5D050009219F2 /* TheAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75A620A5D050009219F2 /* TheAnimationTests.swift */; };
 		37BD75A920A5D050009219F2 /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD759B20A5D050009219F2 /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -76,6 +77,7 @@
 		07EB622220B5D8C600943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation_tvOS.h; sourceTree = "<group>"; };
 		07EB622520B5D8C600943B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376D1CD120CD8BE4002F90FD /* AnimationKeyPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationKeyPathTests.swift; sourceTree = "<group>"; };
 		37BD759820A5D050009219F2 /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BD759B20A5D050009219F2 /* TheAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation.h; sourceTree = "<group>"; };
 		37BD759C20A5D050009219F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			children = (
 				37BD75A620A5D050009219F2 /* TheAnimationTests.swift */,
 				37BD75A820A5D050009219F2 /* Info.plist */,
+				376D1CD120CD8BE4002F90FD /* AnimationKeyPathTests.swift */,
 			);
 			path = TheAnimationTests;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37BD75A720A5D050009219F2 /* TheAnimationTests.swift in Sources */,
+				376D1CD220CD8BE4002F90FD /* AnimationKeyPathTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
