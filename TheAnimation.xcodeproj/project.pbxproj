@@ -40,11 +40,11 @@
 		07239C4C20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
 		07239C4D20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
 		07239C4E20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
-		0746D5C920B5AE6600D21053 /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0746D5C720B5AE6600D21053 /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07EB622620B5D8C600943B5A /* TheAnimation_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37BD75A220A5D050009219F2 /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BD759820A5D050009219F2 /* TheAnimation.framework */; };
 		37BD75A720A5D050009219F2 /* TheAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75A620A5D050009219F2 /* TheAnimationTests.swift */; };
-		37BD75A920A5D050009219F2 /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD759B20A5D050009219F2 /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D00EA3F20E9F30D00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D00EA4420E9F31E00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D00EA4520E9F31F00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,19 +69,16 @@
 		07239C2B20B733490016F553 /* AnimationKeyPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationKeyPaths.swift; sourceTree = "<group>"; };
 		07239C2C20B733490016F553 /* TimingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingFunction.swift; sourceTree = "<group>"; };
 		07239C2D20B733490016F553 /* KeyframeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyframeAnimation.swift; sourceTree = "<group>"; };
-		0746D5BF20B5ADA400D21053 /* TheAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TheAnimation-Info.plist"; path = "/Users/carlos/Documents/GitTowerRepositories/TheAnimation/TheAnimation-Info.plist"; sourceTree = "<absolute>"; };
 		0746D5C520B5AE6600D21053 /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0746D5C720B5AE6600D21053 /* TheAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation.h; sourceTree = "<group>"; };
-		0746D5C820B5AE6600D21053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07EB622220B5D8C600943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation_tvOS.h; sourceTree = "<group>"; };
-		07EB622520B5D8C600943B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BD759820A5D050009219F2 /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37BD759B20A5D050009219F2 /* TheAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAnimation.h; sourceTree = "<group>"; };
-		37BD759C20A5D050009219F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BD75A120A5D050009219F2 /* TheAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BD75A620A5D050009219F2 /* TheAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAnimationTests.swift; sourceTree = "<group>"; };
 		37BD75A820A5D050009219F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D00EA3E20E9F30D00D820FE /* TheAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheAnimation.h; path = TheAnimation/TheAnimation.h; sourceTree = "<group>"; };
+		9D00EA4120E9F31900D820FE /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		9D00EA4220E9F31900D820FE /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		9D00EA4320E9F31900D820FE /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,34 +133,14 @@
 			path = TheAnimation/Source;
 			sourceTree = "<group>";
 		};
-		0746D5C620B5AE6600D21053 /* TheAnimation-macos */ = {
-			isa = PBXGroup;
-			children = (
-				0746D5C720B5AE6600D21053 /* TheAnimation.h */,
-				0746D5C820B5AE6600D21053 /* Info.plist */,
-			);
-			path = "TheAnimation-macos";
-			sourceTree = "<group>";
-		};
-		07EB622320B5D8C600943B5A /* TheAnimation-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				07EB622420B5D8C600943B5A /* TheAnimation_tvOS.h */,
-				07EB622520B5D8C600943B5A /* Info.plist */,
-			);
-			path = "TheAnimation-tvOS";
-			sourceTree = "<group>";
-		};
 		37BD758E20A5D050009219F2 = {
 			isa = PBXGroup;
 			children = (
+				9D00EA3E20E9F30D00D820FE /* TheAnimation.h */,
+				9D00EA4020E9F31900D820FE /* Resource */,
 				07239C2220B733490016F553 /* Source */,
-				37BD759A20A5D050009219F2 /* TheAnimation-iOS */,
 				37BD75A520A5D050009219F2 /* TheAnimationTests */,
-				0746D5C620B5AE6600D21053 /* TheAnimation-macos */,
-				07EB622320B5D8C600943B5A /* TheAnimation-tvOS */,
 				37BD759920A5D050009219F2 /* Products */,
-				0746D5BF20B5ADA400D21053 /* TheAnimation-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,15 +155,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37BD759A20A5D050009219F2 /* TheAnimation-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				37BD759B20A5D050009219F2 /* TheAnimation.h */,
-				37BD759C20A5D050009219F2 /* Info.plist */,
-			);
-			path = "TheAnimation-iOS";
-			sourceTree = "<group>";
-		};
 		37BD75A520A5D050009219F2 /* TheAnimationTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +164,17 @@
 			path = TheAnimationTests;
 			sourceTree = "<group>";
 		};
+		9D00EA4020E9F31900D820FE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9D00EA4120E9F31900D820FE /* Info-iOS.plist */,
+				9D00EA4220E9F31900D820FE /* Info-tvOS.plist */,
+				9D00EA4320E9F31900D820FE /* Info-macOS.plist */,
+			);
+			name = Resource;
+			path = TheAnimation/Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -203,7 +182,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0746D5C920B5AE6600D21053 /* TheAnimation.h in Headers */,
+				9D00EA4420E9F31E00D820FE /* TheAnimation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +190,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EB622620B5D8C600943B5A /* TheAnimation_tvOS.h in Headers */,
+				9D00EA4520E9F31F00D820FE /* TheAnimation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +198,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BD75A920A5D050009219F2 /* TheAnimation.h in Headers */,
+				9D00EA3F20E9F30D00D820FE /* TheAnimation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +442,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "TheAnimation-macos/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation/Resource/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,7 +473,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "TheAnimation-macos/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation/Resource/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,7 +500,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "TheAnimation-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation/Resource/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -548,7 +527,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "TheAnimation-tvOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation/Resource/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -696,7 +675,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation/Resource/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -725,7 +704,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TheAnimation/Resource/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

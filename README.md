@@ -1,11 +1,23 @@
 # TheAnimation
 
-[![CI Status](https://img.shields.io/travis/marty-suzuki/TheAnimation.svg?style=flat)](https://travis-ci.org/marty-suzuki/TheAnimation)
-[![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat)](https://developer.apple.com/iphone/index.action)
-[![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat)](https://developer.apple.com/swift)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Version](https://img.shields.io/cocoapods/v/TheAnimation.svg?style=flat)](https://cocoapods.org/pods/TheAnimation)
-[![License](https://img.shields.io/cocoapods/l/TheAnimation.svg?style=flat)](https://cocoapods.org/pods/TheAnimation)
+<p align="center">
+  <img src="http://img.shields.io/badge/platform-iOS | tvOS | macOS-blue.svg?style=flat" alt="Platform" />
+  <a href="https://developer.apple.com/swift">
+    <img src="http://img.shields.io/badge/language-Swift-brightgreen.svg?style=flat" alt="Language">
+  </a>
+  <a href="https://github.com/Carthage/Carthage">
+    <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage">
+  </a>
+  <a href="https://cocoapods.org/pods/TheAnimation">
+    <img src="https://img.shields.io/cocoapods/v/TheAnimation.svg?style=flat" alt="Version">
+  </a>
+  <a href="https://cocoapods.org/pods/TheAnimation">
+    <img src="https://img.shields.io/cocoapods/l/TheAnimation.svg?style=flat" alt="License">
+  </a>
+  <a href="https://travis-ci.org/marty-suzuki/TheAnimation">
+    <img src="https://img.shields.io/travis/marty-suzuki/TheAnimation.svg?style=flat" alt="CI Status">
+  </a>
+</p>
 
 TheAnimation is Type-safe CAAnimation wrapper.
 
@@ -72,6 +84,8 @@ extension AnimationKeyPaths {
 
 - Xcode 9.3
 - iOS 9 or greater
+- tvOS 9 or greater
+- macOS 10.11 or greater
 
 ## Installation
 
