@@ -44,19 +44,39 @@ public final class TransitionAnimation: Animation {
 }
 
 public struct TransitionType {
+
+    #if swift(>=4.2)
+    typealias RawValue = CATransitionType
+    public static let fade   = TransitionType(rawValue: .fade)
+    public static let moveIn = TransitionType(rawValue: .moveIn)
+    public static let push   = TransitionType(rawValue: .push)
+    public static let reveal = TransitionType(rawValue: .reveal)
+    #else
+    typealias RawValue = String
     public static let fade   = TransitionType(rawValue: kCATransitionFade)
     public static let moveIn = TransitionType(rawValue: kCATransitionMoveIn)
     public static let push   = TransitionType(rawValue: kCATransitionPush)
     public static let reveal = TransitionType(rawValue: kCATransitionReveal)
+    #endif
 
-    let rawValue: String
+    let rawValue: RawValue
 }
 
 public struct TransitionSubtype {
+
+    #if swift(>=4.2)
+    typealias RawValue = CATransitionSubtype
+    public static let right  = TransitionSubtype(rawValue: .fromRight)
+    public static let left   = TransitionSubtype(rawValue: .fromLeft)
+    public static let top    = TransitionSubtype(rawValue: .fromTop)
+    public static let bottom = TransitionSubtype(rawValue: .fromBottom)
+    #else
+    typealias RawValue = String
     public static let right  = TransitionSubtype(rawValue: kCATransitionFromRight)
     public static let left   = TransitionSubtype(rawValue: kCATransitionFromLeft)
     public static let top    = TransitionSubtype(rawValue: kCATransitionFromTop)
     public static let bottom = TransitionSubtype(rawValue: kCATransitionFromBottom)
+    #endif
 
-    let rawValue: String
+    let rawValue: RawValue
 }
