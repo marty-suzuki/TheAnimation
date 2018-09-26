@@ -28,6 +28,22 @@ extension PrimitiveAnimation where RawAnimation: CAPropertyAnimation {
 }
 
 public struct ValueFunction {
+
+    #if swift(>=4.2)
+    typealias RawValue = CAValueFunctionName
+    public static let rotateX    = ValueFunction(name: .rotateX)
+    public static let rotateY    = ValueFunction(name: .rotateY)
+    public static let rotateZ    = ValueFunction(name: .rotateZ)
+    public static let scale      = ValueFunction(name: .scale)
+    public static let scaleX     = ValueFunction(name: .scaleX)
+    public static let scaleY     = ValueFunction(name: .scaleY)
+    public static let scaleZ     = ValueFunction(name: .scaleZ)
+    public static let translate  = ValueFunction(name: .translate)
+    public static let translateX = ValueFunction(name: .translateX)
+    public static let translateY = ValueFunction(name: .translateY)
+    public static let translateZ = ValueFunction(name: .translateZ)
+    #else
+    typealias RawValue = String
     public static let rotateX    = ValueFunction(name: kCAValueFunctionRotateX)
     public static let rotateY    = ValueFunction(name: kCAValueFunctionRotateY)
     public static let rotateZ    = ValueFunction(name: kCAValueFunctionRotateZ)
@@ -39,10 +55,11 @@ public struct ValueFunction {
     public static let translateX = ValueFunction(name: kCAValueFunctionTranslateX)
     public static let translateY = ValueFunction(name: kCAValueFunctionTranslateY)
     public static let translateZ = ValueFunction(name: kCAValueFunctionTranslateZ)
+    #endif
 
     let rawValue: CAValueFunction?
 
-    init(name: String) {
+    init(name: RawValue) {
         self.rawValue = CAValueFunction(name: name)
     }
 

@@ -9,15 +9,26 @@
 import QuartzCore.CoreAnimation
 
 public struct TimingFunction {
+
+    #if swift(>=4.2)
+    typealias RawValue = CAMediaTimingFunctionName
+    public static let `default`     = TimingFunction(name: .default)
+    public static let linear        = TimingFunction(name: .linear)
+    public static let easeIn        = TimingFunction(name: .easeIn)
+    public static let easeOut       = TimingFunction(name: .easeOut)
+    public static let easeInEaseOut = TimingFunction(name: .easeInEaseOut)
+    #else
+    typealias RawValue = String
     public static let `default`     = TimingFunction(name: kCAMediaTimingFunctionDefault)
     public static let linear        = TimingFunction(name: kCAMediaTimingFunctionLinear)
     public static let easeIn        = TimingFunction(name: kCAMediaTimingFunctionEaseIn)
     public static let easeOut       = TimingFunction(name: kCAMediaTimingFunctionEaseOut)
     public static let easeInEaseOut = TimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+    #endif
 
     let rawValue: CAMediaTimingFunction
 
-    init(name: String) {
+    init(name: RawValue) {
         self.rawValue = CAMediaTimingFunction(name: name)
     }
 

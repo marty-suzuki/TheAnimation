@@ -96,18 +96,37 @@ extension PrimitiveAnimation where RawAnimation == CAKeyframeAnimation {
 
 
 public struct CalculationMode {
+
+    #if swift(>=4.2)
+    typealias RawValue = CAAnimationCalculationMode
+    public static let linear     = CalculationMode(rawValue: .linear)
+    public static let discrete   = CalculationMode(rawValue: .discrete)
+    public static let paced      = CalculationMode(rawValue: .paced)
+    public static let cubic      = CalculationMode(rawValue: .cubic)
+    public static let cubicPaced = CalculationMode(rawValue: .cubicPaced)
+    #else
+    typealias RawValue = String
     public static let linear     = CalculationMode(rawValue: kCAAnimationLinear)
     public static let discrete   = CalculationMode(rawValue: kCAAnimationDiscrete)
     public static let paced      = CalculationMode(rawValue: kCAAnimationPaced)
     public static let cubic      = CalculationMode(rawValue: kCAAnimationCubic)
     public static let cubicPaced = CalculationMode(rawValue: kCAAnimationCubicPaced)
+    #endif
 
-    let rawValue: String
+    let rawValue: RawValue
 }
 
 public struct RotationMode {
+
+    #if swift(>=4.2)
+    typealias RawValue = CAAnimationRotationMode
+    public static let auto          = RotationMode(rawValue: .rotateAuto)
+    public static let autoaReverse  = RotationMode(rawValue: .rotateAutoReverse)
+    #else
+    typealias RawValue = String
     public static let auto          = RotationMode(rawValue: kCAAnimationRotateAuto)
     public static let autoaReverse  = RotationMode(rawValue: kCAAnimationRotateAutoReverse)
+    #endif
 
-    let rawValue: String
+    let rawValue: RawValue
 }
