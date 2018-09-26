@@ -3,7 +3,7 @@
 <p align="center">
   <img src="http://img.shields.io/badge/platform-iOS | tvOS | macOS-blue.svg?style=flat" alt="Platform" />
   <a href="https://developer.apple.com/swift">
-    <img src="http://img.shields.io/badge/language-Swift-brightgreen.svg?style=flat" alt="Language">
+    <img src="http://img.shields.io/badge/Swift-4.1%20|%204.2-brightgreen.svg?style=flat" alt="Language">
   </a>
   <a href="https://github.com/Carthage/Carthage">
     <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage">
@@ -86,6 +86,7 @@ extension AnimationKeyPaths {
 - iOS 9 or greater
 - tvOS 9 or greater
 - macOS 10.11 or greater
+- Swift 4.2 (since 0.3.0)
 
 ## Installation
 
