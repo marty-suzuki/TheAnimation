@@ -17,22 +17,17 @@ public final class AnimationGroup: Animation {
 
     public var animations: [Animation] {
         set {
-            keys = newValue.map { $0.key }
-            _animation.animations = newValue.map { $0.animation }
+            let animations = newValue.map(AnyAnimation.init)
+            _animations = animations
+            _animation.animations = animations.map { $0.animation }
         }
         get {
-            guard let animations = _animation.animations else {
-                return []
-            }
-            return animations.enumerated().map { offset, element in
-                AnyAnimation(animation: element, key: keys[offset])
-            }
+            return _animations
         }
     }
 
-    private var keys: [String] = []
-
-    let _animation: CAAnimationGroup
+    private var _animations: [AnyAnimation] = []
+    private let _animation: CAAnimationGroup
 
     public init() {
         self._animation = CAAnimationGroup()

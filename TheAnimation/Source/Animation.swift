@@ -15,12 +15,22 @@ public typealias View = NSView
 #endif
 import QuartzCore.CoreAnimation
 
-public protocol Animation: class {
+public protocol Animation: AnyObject {
     var animation: CAAnimation { get }
     var key: String { get }
 }
 
+public enum AnimationStatus {
+    case didStart
+    case didStop(finished: Bool)
+}
+
 extension Animation {
+    public var animationHandler:  ((AnimationStatus) -> Void)? {
+        set { animation._delegateProxy.handler = newValue }
+        get { return animation._delegateProxy.handler }
+    }
+
     public var timingFunction: TimingFunction? {
         set { animation.timingFunction = newValue?.rawValue }
         get { return animation.timingFunction.flatMap(TimingFunction.init) }
@@ -101,6 +111,22 @@ extension Animation {
             fatalError("view.layer is nil in \(#file)_\(#function)_\(#line)")
         }
         #endif
+    }
+}
+
+private let _delegateProxyKey = UnsafeMutablePointer<Void>.allocate(capacity: 1)
+
+extension CAAnimation {
+    fileprivate var _delegateProxy: CAAnimationDelegateProxy{
+        let dp: CAAnimationDelegateProxy
+        if let _dp = objc_getAssociatedObject(self, _delegateProxyKey) as? CAAnimationDelegateProxy {
+            dp = _dp
+        } else {
+            dp = CAAnimationDelegateProxy()
+            objc_setAssociatedObject(self, _delegateProxyKey, dp, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+        delegate = dp
+        return dp
     }
 }
 

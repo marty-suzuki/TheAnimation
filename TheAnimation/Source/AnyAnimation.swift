@@ -9,11 +9,20 @@
 import QuartzCore.CoreAnimation
 
 public final class AnyAnimation: Animation {
-    public let animation: CAAnimation
-    public let key: String
+    public var animation: CAAnimation {
+        return _animation.animation
+    }
+    public var key: String {
+        return _animation.key
+    }
 
-    init(animation: CAAnimation, key: String) {
-        self.animation = animation
-        self.key = key
+    let _animation: Animation
+
+    init(_ animation: Animation) {
+        self._animation = animation
+    }
+
+    public func animationAs<T: Animation>(_ type: T) -> T? {
+        return _animation as? T
     }
 }

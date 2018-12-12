@@ -40,6 +40,9 @@
 		07239C4C20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
 		07239C4D20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
 		07239C4E20B733490016F553 /* KeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07239C2D20B733490016F553 /* KeyframeAnimation.swift */; };
+		37915EA921B97BB90067DBED /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37915EA821B97BB90067DBED /* AnimationDelegate.swift */; };
+		37915EAA21B97BBC0067DBED /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37915EA821B97BB90067DBED /* AnimationDelegate.swift */; };
+		37915EAB21B97BBC0067DBED /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37915EA821B97BB90067DBED /* AnimationDelegate.swift */; };
 		37BD75A220A5D050009219F2 /* TheAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BD759820A5D050009219F2 /* TheAnimation.framework */; };
 		37BD75A720A5D050009219F2 /* TheAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD75A620A5D050009219F2 /* TheAnimationTests.swift */; };
 		9D00EA3F20E9F30D00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,6 +74,7 @@
 		07239C2D20B733490016F553 /* KeyframeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyframeAnimation.swift; sourceTree = "<group>"; };
 		0746D5C520B5AE6600D21053 /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EB622220B5D8C600943B5A /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37915EA821B97BB90067DBED /* AnimationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDelegate.swift; sourceTree = "<group>"; };
 		37BD759820A5D050009219F2 /* TheAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BD75A120A5D050009219F2 /* TheAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BD75A620A5D050009219F2 /* TheAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAnimationTests.swift; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 				07239C2B20B733490016F553 /* AnimationKeyPaths.swift */,
 				07239C2C20B733490016F553 /* TimingFunction.swift */,
 				07239C2D20B733490016F553 /* KeyframeAnimation.swift */,
+				37915EA821B97BB90067DBED /* AnimationDelegate.swift */,
 			);
 			name = Source;
 			path = TheAnimation/Source;
@@ -366,6 +371,7 @@
 				07239C4D20B733490016F553 /* KeyframeAnimation.swift in Sources */,
 				07239C2F20B733490016F553 /* Animation.swift in Sources */,
 				07239C4420B733490016F553 /* SpringAnimation.swift in Sources */,
+				37915EAA21B97BBC0067DBED /* AnimationDelegate.swift in Sources */,
 				07239C3E20B733490016F553 /* PropertyAnimation.swift in Sources */,
 				07239C4A20B733490016F553 /* TimingFunction.swift in Sources */,
 				07239C3220B733490016F553 /* TransitionAnimation.swift in Sources */,
@@ -384,6 +390,7 @@
 				07239C4E20B733490016F553 /* KeyframeAnimation.swift in Sources */,
 				07239C3020B733490016F553 /* Animation.swift in Sources */,
 				07239C4520B733490016F553 /* SpringAnimation.swift in Sources */,
+				37915EAB21B97BBC0067DBED /* AnimationDelegate.swift in Sources */,
 				07239C3F20B733490016F553 /* PropertyAnimation.swift in Sources */,
 				07239C4B20B733490016F553 /* TimingFunction.swift in Sources */,
 				07239C3320B733490016F553 /* TransitionAnimation.swift in Sources */,
@@ -402,6 +409,7 @@
 				07239C4C20B733490016F553 /* KeyframeAnimation.swift in Sources */,
 				07239C2E20B733490016F553 /* Animation.swift in Sources */,
 				07239C4320B733490016F553 /* SpringAnimation.swift in Sources */,
+				37915EA921B97BB90067DBED /* AnimationDelegate.swift in Sources */,
 				07239C3D20B733490016F553 /* PropertyAnimation.swift in Sources */,
 				07239C4920B733490016F553 /* TimingFunction.swift in Sources */,
 				07239C3120B733490016F553 /* TransitionAnimation.swift in Sources */,
