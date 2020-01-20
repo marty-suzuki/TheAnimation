@@ -3,7 +3,7 @@
 <p align="center">
   <img src="http://img.shields.io/badge/platform-iOS | tvOS | macOS-blue.svg?style=flat" alt="Platform" />
   <a href="https://developer.apple.com/swift">
-    <img src="http://img.shields.io/badge/Swift-4.1%20|%204.2-brightgreen.svg?style=flat" alt="Language">
+    <img src="http://img.shields.io/badge/Swift-4.1%20|%204.2%20|%205.0%20|%205.1-brightgreen.svg?style=flat" alt="Language">
   </a>
   <a href="https://github.com/Carthage/Carthage">
     <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage">
@@ -78,6 +78,30 @@ You can add `AnimationKeyPath` like this.
 extension AnimationKeyPaths {
     static let newKeyPath = AnimationKeyPath<CGFloat>(keyPath: "abcd")
 }
+```
+
+## Handle animation did `Start` / `Stop`
+
+You can handle animation did **Start** with `func setAnimationDidStart(handler:)`.
+In addition, you can handle animation did **Stop** with `func setAnimationDidStop(handler:)`.
+
+```swift
+let view = UIView()
+
+let animation = BasicAnimation(keyPath: .opacity)
+animation.fromValue = 0
+animation.toValue   = 1
+animation.duration  = 1
+
+animation.setAnimationDidStart {
+    // do something
+}
+
+animation.setAnimationDidStop { finished in
+    // do something
+}
+
+animation.animate(in: view)
 ```
 
 ## Requirements
