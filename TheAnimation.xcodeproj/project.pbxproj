@@ -45,6 +45,9 @@
 		9D00EA3F20E9F30D00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D00EA4420E9F31E00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D00EA4520E9F31F00D820FE /* TheAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D00EA3E20E9F30D00D820FE /* TheAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDECABFE23D5FD7900B37022 /* CAAnimationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECABFD23D5FD7900B37022 /* CAAnimationDelegateProxy.swift */; };
+		EDECABFF23D5FD7900B37022 /* CAAnimationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECABFD23D5FD7900B37022 /* CAAnimationDelegateProxy.swift */; };
+		EDECAC0023D5FD7900B37022 /* CAAnimationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECABFD23D5FD7900B37022 /* CAAnimationDelegateProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,7 @@
 		9D00EA4120E9F31900D820FE /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		9D00EA4220E9F31900D820FE /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		9D00EA4320E9F31900D820FE /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		EDECABFD23D5FD7900B37022 /* CAAnimationDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAAnimationDelegateProxy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		07239C2220B733490016F553 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EDECABF823D5FA7600B37022 /* Internal */,
 				07239C2320B733490016F553 /* Animation.swift */,
 				07239C2420B733490016F553 /* TransitionAnimation.swift */,
 				07239C2520B733490016F553 /* PrimitiveAnimation.swift */,
@@ -173,6 +178,14 @@
 			);
 			name = Resource;
 			path = TheAnimation/Resource;
+			sourceTree = "<group>";
+		};
+		EDECABF823D5FA7600B37022 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				EDECABFD23D5FD7900B37022 /* CAAnimationDelegateProxy.swift */,
+			);
+			path = Internal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +377,7 @@
 				07239C3520B733490016F553 /* PrimitiveAnimation.swift in Sources */,
 				07239C3820B733490016F553 /* AnyAnimation.swift in Sources */,
 				07239C4D20B733490016F553 /* KeyframeAnimation.swift in Sources */,
+				EDECABFF23D5FD7900B37022 /* CAAnimationDelegateProxy.swift in Sources */,
 				07239C2F20B733490016F553 /* Animation.swift in Sources */,
 				07239C4420B733490016F553 /* SpringAnimation.swift in Sources */,
 				07239C3E20B733490016F553 /* PropertyAnimation.swift in Sources */,
@@ -382,6 +396,7 @@
 				07239C3620B733490016F553 /* PrimitiveAnimation.swift in Sources */,
 				07239C3920B733490016F553 /* AnyAnimation.swift in Sources */,
 				07239C4E20B733490016F553 /* KeyframeAnimation.swift in Sources */,
+				EDECAC0023D5FD7900B37022 /* CAAnimationDelegateProxy.swift in Sources */,
 				07239C3020B733490016F553 /* Animation.swift in Sources */,
 				07239C4520B733490016F553 /* SpringAnimation.swift in Sources */,
 				07239C3F20B733490016F553 /* PropertyAnimation.swift in Sources */,
@@ -400,6 +415,7 @@
 				07239C3420B733490016F553 /* PrimitiveAnimation.swift in Sources */,
 				07239C3720B733490016F553 /* AnyAnimation.swift in Sources */,
 				07239C4C20B733490016F553 /* KeyframeAnimation.swift in Sources */,
+				EDECABFE23D5FD7900B37022 /* CAAnimationDelegateProxy.swift in Sources */,
 				07239C2E20B733490016F553 /* Animation.swift in Sources */,
 				07239C4320B733490016F553 /* SpringAnimation.swift in Sources */,
 				07239C3D20B733490016F553 /* PropertyAnimation.swift in Sources */,

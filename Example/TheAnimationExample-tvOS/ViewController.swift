@@ -54,7 +54,15 @@ class ViewController: UIViewController {
             animationGroup.fillMode = .forwards
             animationGroup.isRemovedOnCompletion = false
 
+            animationGroup.setAnimationDidStart {
+                print("animation did start")
+            }
+
             let canceller = animationGroup.animate(in: circleLayer)
+
+            animationGroup.setAnimationDidStop { finished in
+                print("animation did stop: finished = \(finished)")
+            }
 
             DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(7)) {
                 canceller.cancelAnimation()

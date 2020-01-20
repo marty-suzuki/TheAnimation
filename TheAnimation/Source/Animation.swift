@@ -102,6 +102,36 @@ extension Animation {
         }
         #endif
     }
+
+    public func setAnimationDidStart(handler: (() -> Void)?) {
+        guard let handler = handler else {
+            animation.delegateProxy.didStart = nil
+            return
+        }
+
+        let t = type(of: animation)
+        animation.delegateProxy.didStart = { anim in
+            guard t === type(of: anim) else {
+                return
+            }
+            handler()
+        }
+    }
+
+    public func setAnimationDidStop(handler: ((Bool) -> Void)?) {
+        guard let handler = handler else {
+            animation.delegateProxy.didStop = nil
+            return
+        }
+
+        let t = type(of: animation)
+        animation.delegateProxy.didStop = { anim, finished in
+            guard t === type(of: anim) else {
+                return
+            }
+            handler(finished)
+        }
+    }
 }
 
 public struct FillMode {
